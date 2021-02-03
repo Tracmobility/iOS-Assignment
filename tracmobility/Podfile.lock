@@ -1,0 +1,74 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Auth0 (1.30.1):
+    - JWTDecode
+    - SimpleKeychain
+  - GoogleMaps (4.0.0):
+    - GoogleMaps/Maps (= 4.0.0)
+  - GoogleMaps/Base (4.0.0)
+  - GoogleMaps/Maps (4.0.0):
+    - GoogleMaps/Base
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.1.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher (~> 1.4)
+  - GTMSessionFetcher (1.5.0):
+    - GTMSessionFetcher/Full (= 1.5.0)
+  - GTMSessionFetcher/Core (1.5.0)
+  - GTMSessionFetcher/Full (1.5.0):
+    - GTMSessionFetcher/Core (= 1.5.0)
+  - JWTDecode (2.6.0)
+  - Mapbox-iOS-SDK (6.3.0):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.7)
+  - ProgressHUD (13.4)
+  - SideMenu (6.5.0)
+  - SimpleKeychain (0.12.1)
+
+DEPENDENCIES:
+  - Auth0 (~> 1.0)
+  - GoogleMaps
+  - GoogleSignIn
+  - Mapbox-iOS-SDK
+  - ProgressHUD
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Auth0
+    - GoogleMaps
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - JWTDecode
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+    - ProgressHUD
+    - SideMenu
+    - SimpleKeychain
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Auth0: 59bece5b578a93589bd321fafeed8a042429f9db
+  GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  JWTDecode: 480ca441ddbd5fbfb2abf17870af62f86436be58
+  Mapbox-iOS-SDK: 2563ed87ead6ec08f1c2090873977b8a7be335a8
+  MapboxMobileEvents: d0a581dedd8f47411cc65ea520b965e83914316e
+  ProgressHUD: 137a7fc677487c5581668f4490563124fb35c232
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SimpleKeychain: 77443015b0f29005c16f74bf858469a9e9fb05e8
+
+PODFILE CHECKSUM: 32817d304fab542135299551a338ebb9754952dd
+
+COCOAPODS: 1.9.3

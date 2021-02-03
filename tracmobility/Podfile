@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'tracmobility' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for tracmobility
+  pod 'Auth0', '~> 1.0'
+  pod 'ProgressHUD'
+  pod 'SideMenu'
+  pod 'GoogleMaps'
+  pod 'Mapbox-iOS-SDK'
+  pod 'GoogleSignIn'
+
+  target 'tracmobilityTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'tracmobilityUITests' do
+    # Pods for testing
+  end
+
+end

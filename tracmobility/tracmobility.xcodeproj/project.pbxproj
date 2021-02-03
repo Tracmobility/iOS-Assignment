@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AA876225CA6CF600B28EEF /* StyledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA876125CA6CF600B28EEF /* StyledView.swift */; };
+		18B086AB25CA57130014AB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B086AA25CA57130014AB67 /* AppDelegate.swift */; };
+		18B086AD25CA57130014AB67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B086AC25CA57130014AB67 /* SceneDelegate.swift */; };
+		18B086AF25CA57130014AB67 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B086AE25CA57130014AB67 /* SplashController.swift */; };
+		18B086B225CA57140014AB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B086B025CA57140014AB67 /* Main.storyboard */; };
+		18B086B425CA57150014AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B086B325CA57150014AB67 /* Assets.xcassets */; };
+		18B086B725CA57150014AB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B086B525CA57150014AB67 /* LaunchScreen.storyboard */; };
+		18B086C225CA57150014AB67 /* tracmobilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B086C125CA57150014AB67 /* tracmobilityTests.swift */; };
+		18B086CD25CA57150014AB67 /* tracmobilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B086CC25CA57150014AB67 /* tracmobilityUITests.swift */; };
+		18B086E725CA5A430014AB67 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B086E625CA5A430014AB67 /* Auth0.plist */; };
+		18BCCFAB25CAB11900BB24B6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCFAA25CAB11900BB24B6 /* HomeController.swift */; };
+		18BCCFC125CB208F00BB24B6 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCFC025CB208F00BB24B6 /* AuthController.swift */; };
+		18BD809225CA79A300D54872 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD809125CA79A300D54872 /* SignupController.swift */; };
+		18BD809B25CA7BB100D54872 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD809A25CA7BB100D54872 /* String+extension.swift */; };
+		18BD80A025CA7DE100D54872 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD809F25CA7DE100D54872 /* Utils.swift */; };
+		18BD80AF25CA865F00D54872 /* SigninController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD80AE25CA865F00D54872 /* SigninController.swift */; };
+		18BD80C025CAA80300D54872 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD80BF25CAA80300D54872 /* SideMenuController.swift */; };
+		18BD80C625CAAC6400D54872 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD80C525CAAC6400D54872 /* ProfileCell.swift */; };
+		18BD80CE25CAAC7200D54872 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD80CD25CAAC7200D54872 /* MenuItemCell.swift */; };
+		87B4F7D9C6381937E18A5F1F /* Pods_tracmobilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED90F077D1D614771B357117 /* Pods_tracmobilityTests.framework */; };
+		9EC7F845EF8F364A06D2EF67 /* Pods_tracmobility_tracmobilityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B7A3A73CD7B4C2A0FCBCC7 /* Pods_tracmobility_tracmobilityUITests.framework */; };
+		FAE3827BCB5F0DF0AB9CDF92 /* Pods_tracmobility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C86E23B839150F465628E7 /* Pods_tracmobility.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B086BE25CA57150014AB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B0869F25CA57130014AB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B086A625CA57130014AB67;
+			remoteInfo = tracmobility;
+		};
+		18B086C925CA57150014AB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B0869F25CA57130014AB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B086A625CA57130014AB67;
+			remoteInfo = tracmobility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C12CCCC14C41E74D5D3945 /* Pods-tracmobility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobility.debug.xcconfig"; path = "Target Support Files/Pods-tracmobility/Pods-tracmobility.debug.xcconfig"; sourceTree = "<group>"; };
+		118686075890098FDBB3700A /* Pods-tracmobilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobilityTests.debug.xcconfig"; path = "Target Support Files/Pods-tracmobilityTests/Pods-tracmobilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18AA876125CA6CF600B28EEF /* StyledView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledView.swift; sourceTree = "<group>"; };
+		18B086A725CA57130014AB67 /* tracmobility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracmobility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B086AA25CA57130014AB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B086AC25CA57130014AB67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18B086AE25CA57130014AB67 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		18B086B125CA57140014AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B086B325CA57150014AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B086B625CA57150014AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B086B825CA57150014AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B086BD25CA57150014AB67 /* tracmobilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tracmobilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B086C125CA57150014AB67 /* tracmobilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracmobilityTests.swift; sourceTree = "<group>"; };
+		18B086C325CA57150014AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B086C825CA57150014AB67 /* tracmobilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tracmobilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B086CC25CA57150014AB67 /* tracmobilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracmobilityUITests.swift; sourceTree = "<group>"; };
+		18B086CE25CA57150014AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B086E625CA5A430014AB67 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		18BCCFAA25CAB11900BB24B6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		18BCCFC025CB208F00BB24B6 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		18BD809125CA79A300D54872 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010SignupController.swift"; sourceTree = "<group>"; };
+		18BD809A25CA7BB100D54872 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		18BD809F25CA7DE100D54872 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		18BD80AE25CA865F00D54872 /* SigninController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninController.swift; sourceTree = "<group>"; };
+		18BD80BF25CAA80300D54872 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		18BD80C525CAAC6400D54872 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		18BD80CD25CAAC7200D54872 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		45D0A8D2AFEC939888E044A2 /* Pods-tracmobility-tracmobilityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobility-tracmobilityUITests.release.xcconfig"; path = "Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6375DD81BB9117AA35C969E1 /* Pods-tracmobilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobilityTests.release.xcconfig"; path = "Target Support Files/Pods-tracmobilityTests/Pods-tracmobilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F7BE1B6941AF171F2694485 /* Pods-tracmobility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobility.release.xcconfig"; path = "Target Support Files/Pods-tracmobility/Pods-tracmobility.release.xcconfig"; sourceTree = "<group>"; };
+		C1B7A3A73CD7B4C2A0FCBCC7 /* Pods_tracmobility_tracmobilityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracmobility_tracmobilityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22D1192FE07D422D301ECE0 /* Pods-tracmobility-tracmobilityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracmobility-tracmobilityUITests.debug.xcconfig"; path = "Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C86E23B839150F465628E7 /* Pods_tracmobility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracmobility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED90F077D1D614771B357117 /* Pods_tracmobilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracmobilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B086A425CA57130014AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3827BCB5F0DF0AB9CDF92 /* Pods_tracmobility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086BA25CA57150014AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B4F7D9C6381937E18A5F1F /* Pods_tracmobilityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086C525CA57150014AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC7F845EF8F364A06D2EF67 /* Pods_tracmobility_tracmobilityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AA874E25CA627B00B28EEF /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				18AA874F25CA628C00B28EEF /* ViewControllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		18AA874F25CA628C00B28EEF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AA875125CA62A000B28EEF /* CoreFlow */,
+				18AA875025CA629700B28EEF /* Auth */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18AA875025CA629700B28EEF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				18B086AE25CA57130014AB67 /* SplashController.swift */,
+				18BD809125CA79A300D54872 /* SignupController.swift */,
+				18BD80AE25CA865F00D54872 /* SigninController.swift */,
+				18BCCFC025CB208F00BB24B6 /* AuthController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		18AA875125CA62A000B28EEF /* CoreFlow */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCFA925CAB10C00BB24B6 /* Home */,
+				18BD80BE25CAA7E700D54872 /* SideMenu */,
+			);
+			path = CoreFlow;
+			sourceTree = "<group>";
+		};
+		18AA875B25CA683400B28EEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AA876125CA6CF600B28EEF /* StyledView.swift */,
+				18BD809A25CA7BB100D54872 /* String+extension.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18B0869E25CA57130014AB67 = {
+			isa = PBXGroup;
+			children = (
+				18B086A925CA57130014AB67 /* tracmobility */,
+				18B086C025CA57150014AB67 /* tracmobilityTests */,
+				18B086CB25CA57150014AB67 /* tracmobilityUITests */,
+				18B086A825CA57130014AB67 /* Products */,
+				7C1643682188EB1193B8280D /* Pods */,
+				F69A1E0EBDA12C76CA4A189D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B086A825CA57130014AB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B086A725CA57130014AB67 /* tracmobility.app */,
+				18B086BD25CA57150014AB67 /* tracmobilityTests.xctest */,
+				18B086C825CA57150014AB67 /* tracmobilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B086A925CA57130014AB67 /* tracmobility */ = {
+			isa = PBXGroup;
+			children = (
+				18BD809625CA7A5200D54872 /* Utils */,
+				18AA875B25CA683400B28EEF /* Classes */,
+				18AA874E25CA627B00B28EEF /* MVC */,
+				18B086AA25CA57130014AB67 /* AppDelegate.swift */,
+				18B086AC25CA57130014AB67 /* SceneDelegate.swift */,
+				18B086B025CA57140014AB67 /* Main.storyboard */,
+				18B086B325CA57150014AB67 /* Assets.xcassets */,
+				18B086B525CA57150014AB67 /* LaunchScreen.storyboard */,
+				18B086B825CA57150014AB67 /* Info.plist */,
+				18B086E625CA5A430014AB67 /* Auth0.plist */,
+			);
+			path = tracmobility;
+			sourceTree = "<group>";
+		};
+		18B086C025CA57150014AB67 /* tracmobilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B086C125CA57150014AB67 /* tracmobilityTests.swift */,
+				18B086C325CA57150014AB67 /* Info.plist */,
+			);
+			path = tracmobilityTests;
+			sourceTree = "<group>";
+		};
+		18B086CB25CA57150014AB67 /* tracmobilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B086CC25CA57150014AB67 /* tracmobilityUITests.swift */,
+				18B086CE25CA57150014AB67 /* Info.plist */,
+			);
+			path = tracmobilityUITests;
+			sourceTree = "<group>";
+		};
+		18BCCFA925CAB10C00BB24B6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCFAA25CAB11900BB24B6 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18BD809625CA7A5200D54872 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18BD809F25CA7DE100D54872 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18BD80BE25CAA7E700D54872 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18BD80C425CAAC5100D54872 /* views */,
+				18BD80BF25CAA80300D54872 /* SideMenuController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		18BD80C425CAAC5100D54872 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				18BD80C525CAAC6400D54872 /* ProfileCell.swift */,
+				18BD80CD25CAAC7200D54872 /* MenuItemCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7C1643682188EB1193B8280D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C12CCCC14C41E74D5D3945 /* Pods-tracmobility.debug.xcconfig */,
+				6F7BE1B6941AF171F2694485 /* Pods-tracmobility.release.xcconfig */,
+				E22D1192FE07D422D301ECE0 /* Pods-tracmobility-tracmobilityUITests.debug.xcconfig */,
+				45D0A8D2AFEC939888E044A2 /* Pods-tracmobility-tracmobilityUITests.release.xcconfig */,
+				118686075890098FDBB3700A /* Pods-tracmobilityTests.debug.xcconfig */,
+				6375DD81BB9117AA35C969E1 /* Pods-tracmobilityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F69A1E0EBDA12C76CA4A189D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C86E23B839150F465628E7 /* Pods_tracmobility.framework */,
+				C1B7A3A73CD7B4C2A0FCBCC7 /* Pods_tracmobility_tracmobilityUITests.framework */,
+				ED90F077D1D614771B357117 /* Pods_tracmobilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B086A625CA57130014AB67 /* tracmobility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B086D125CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobility" */;
+			buildPhases = (
+				0638B408F3C34F4F7B15AC5B /* [CP] Check Pods Manifest.lock */,
+				18B086A325CA57130014AB67 /* Sources */,
+				18B086A425CA57130014AB67 /* Frameworks */,
+				18B086A525CA57130014AB67 /* Resources */,
+				DA8C21582A00DF71667BB7FE /* [CP] Embed Pods Frameworks */,
+				8370A966DB84C8FC7DC3E674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tracmobility;
+			productName = tracmobility;
+			productReference = 18B086A725CA57130014AB67 /* tracmobility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B086BC25CA57150014AB67 /* tracmobilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B086D425CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobilityTests" */;
+			buildPhases = (
+				1C2CD167FF901B7815240FF0 /* [CP] Check Pods Manifest.lock */,
+				18B086B925CA57150014AB67 /* Sources */,
+				18B086BA25CA57150014AB67 /* Frameworks */,
+				18B086BB25CA57150014AB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B086BF25CA57150014AB67 /* PBXTargetDependency */,
+			);
+			name = tracmobilityTests;
+			productName = tracmobilityTests;
+			productReference = 18B086BD25CA57150014AB67 /* tracmobilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B086C725CA57150014AB67 /* tracmobilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B086D725CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobilityUITests" */;
+			buildPhases = (
+				F6EA98BD31B890BBB3F934BC /* [CP] Check Pods Manifest.lock */,
+				18B086C425CA57150014AB67 /* Sources */,
+				18B086C525CA57150014AB67 /* Frameworks */,
+				18B086C625CA57150014AB67 /* Resources */,
+				3844DF1303AD9E375DB63EB7 /* [CP] Embed Pods Frameworks */,
+				49DE1059B76DD3B076542209 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B086CA25CA57150014AB67 /* PBXTargetDependency */,
+			);
+			name = tracmobilityUITests;
+			productName = tracmobilityUITests;
+			productReference = 18B086C825CA57150014AB67 /* tracmobilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B0869F25CA57130014AB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					18B086A625CA57130014AB67 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					18B086BC25CA57150014AB67 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 18B086A625CA57130014AB67;
+					};
+					18B086C725CA57150014AB67 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 18B086A625CA57130014AB67;
+					};
+				};
+			};
+			buildConfigurationList = 18B086A225CA57130014AB67 /* Build configuration list for PBXProject "tracmobility" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B0869E25CA57130014AB67;
+			productRefGroup = 18B086A825CA57130014AB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B086A625CA57130014AB67 /* tracmobility */,
+				18B086BC25CA57150014AB67 /* tracmobilityTests */,
+				18B086C725CA57150014AB67 /* tracmobilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B086A525CA57130014AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B086B725CA57150014AB67 /* LaunchScreen.storyboard in Resources */,
+				18B086B425CA57150014AB67 /* Assets.xcassets in Resources */,
+				18B086B225CA57140014AB67 /* Main.storyboard in Resources */,
+				18B086E725CA5A430014AB67 /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086BB25CA57150014AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086C625CA57150014AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0638B408F3C34F4F7B15AC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tracmobility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C2CD167FF901B7815240FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tracmobilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3844DF1303AD9E375DB63EB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49DE1059B76DD3B076542209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tracmobility-tracmobilityUITests/Pods-tracmobility-tracmobilityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8370A966DB84C8FC7DC3E674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8C21582A00DF71667BB7FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tracmobility/Pods-tracmobility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EA98BD31B890BBB3F934BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tracmobility-tracmobilityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B086A325CA57130014AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AA876225CA6CF600B28EEF /* StyledView.swift in Sources */,
+				18B086AF25CA57130014AB67 /* SplashController.swift in Sources */,
+				18BD80CE25CAAC7200D54872 /* MenuItemCell.swift in Sources */,
+				18BD809B25CA7BB100D54872 /* String+extension.swift in Sources */,
+				18BCCFC125CB208F00BB24B6 /* AuthController.swift in Sources */,
+				18BD80A025CA7DE100D54872 /* Utils.swift in Sources */,
+				18BD80C025CAA80300D54872 /* SideMenuController.swift in Sources */,
+				18BD809225CA79A300D54872 /* SignupController.swift in Sources */,
+				18BD80AF25CA865F00D54872 /* SigninController.swift in Sources */,
+				18BCCFAB25CAB11900BB24B6 /* HomeController.swift in Sources */,
+				18B086AB25CA57130014AB67 /* AppDelegate.swift in Sources */,
+				18B086AD25CA57130014AB67 /* SceneDelegate.swift in Sources */,
+				18BD80C625CAAC6400D54872 /* ProfileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086B925CA57150014AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B086C225CA57150014AB67 /* tracmobilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B086C425CA57150014AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B086CD25CA57150014AB67 /* tracmobilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B086BF25CA57150014AB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B086A625CA57130014AB67 /* tracmobility */;
+			targetProxy = 18B086BE25CA57150014AB67 /* PBXContainerItemProxy */;
+		};
+		18B086CA25CA57150014AB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B086A625CA57130014AB67 /* tracmobility */;
+			targetProxy = 18B086C925CA57150014AB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B086B025CA57140014AB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B086B125CA57140014AB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B086B525CA57150014AB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B086B625CA57150014AB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B086CF25CA57150014AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B086D025CA57150014AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B086D225CA57150014AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C12CCCC14C41E74D5D3945 /* Pods-tracmobility.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobility/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B086D325CA57150014AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7BE1B6941AF171F2694485 /* Pods-tracmobility.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobility/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B086D525CA57150014AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118686075890098FDBB3700A /* Pods-tracmobilityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobilityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracmobility.app/tracmobility";
+			};
+			name = Debug;
+		};
+		18B086D625CA57150014AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6375DD81BB9117AA35C969E1 /* Pods-tracmobilityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobilityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracmobility.app/tracmobility";
+			};
+			name = Release;
+		};
+		18B086D825CA57150014AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22D1192FE07D422D301ECE0 /* Pods-tracmobility-tracmobilityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tracmobility;
+			};
+			name = Debug;
+		};
+		18B086D925CA57150014AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D0A8D2AFEC939888E044A2 /* Pods-tracmobility-tracmobilityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tracmobilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.tracmobilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tracmobility;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B086A225CA57130014AB67 /* Build configuration list for PBXProject "tracmobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B086CF25CA57150014AB67 /* Debug */,
+				18B086D025CA57150014AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B086D125CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B086D225CA57150014AB67 /* Debug */,
+				18B086D325CA57150014AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B086D425CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B086D525CA57150014AB67 /* Debug */,
+				18B086D625CA57150014AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B086D725CA57150014AB67 /* Build configuration list for PBXNativeTarget "tracmobilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B086D825CA57150014AB67 /* Debug */,
+				18B086D925CA57150014AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B0869F25CA57130014AB67 /* Project object */;
+}
