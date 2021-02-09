@@ -1,0 +1,1730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0268532C49DBAAF7C54D780BD1AAC501 /* Optional+DebugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38B52B33F3D388011F418C092F9891 /* Optional+DebugDescription.swift */; };
+		031AA2DB67A55EE7AE432981DFDC59B8 /* AuthTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C3FE49CE6A4FA6CB658413F512E82 /* AuthTransaction.swift */; };
+		05F3DCAC68787DC15026B845F13C594E /* Auth0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D28755E8281FD4BA791065D42A44AD67 /* Auth0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075EB555ADF78E375C09892C0DF767B8 /* BaseWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF4C3D038B7DECE2673B512408C035 /* BaseWebAuth.swift */; };
+		08B5B89F28224381711F45A680C292D9 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 431DE50331EAF872CF8BE347BE74B8CD /* SideMenu-dummy.m */; };
+		0980A9BE78CDFF3939DAE1E34EF60989 /* SessionTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390A38AFFB1085C878915F84CD55319 /* SessionTransaction.swift */; };
+		09A0A5D3733F69E93F553ABBCF02FB77 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045B7B17F7973CB76F71B4F325E30C6 /* SideMenuTransitionController.swift */; };
+		0AEE4116D2A72294B7BF5DFD818601BB /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A681B1EB36E0912E82775F8F84E8 /* Authentication.swift */; };
+		108A8FDEFCBC5565CFE4DDD633CA3786 /* NativeAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BDAABF7474387636EE70164D2B049 /* NativeAuth.swift */; };
+		13F2400A3D1CC07C79DE79475E35B222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */; };
+		144781611443EFAEB8FD220585FA7131 /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7692069F18F06E521B505CC558610 /* AuthenticationError.swift */; };
+		158E4A12218EAAF6FC2B70AABCF6EC5A /* A0SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087FEF4612227C9C9B503D6959929C1 /* A0SHA.m */; };
+		1A766F05FEF8113BE3ADCD85F0D172DC /* JWTDecode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0D51A7ACFBEB473611F4D8C0296EC9 /* JWTDecode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8F7F847C21F79B444FF4FEB50C6557 /* JWTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABDF5C6D0653872ED0D7302B4915FD9 /* JWTAlgorithm.swift */; };
+		1C9E35BACF130380DE342F8BCED81656 /* UserPatchAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063DB918521A2D3D829FC67C6849CB1D /* UserPatchAttributes.swift */; };
+		26CAAE4FBB59E5C0906E4DD293E626C9 /* MobileWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34854CF6A054FDCB8370EDEC4F208499 /* MobileWebAuth.swift */; };
+		27D830F1CAC60B99CC0A135F583BFFF2 /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C46E374FA37EE164F60207FAFDB162 /* SideMenuPresentationController.swift */; };
+		28FCC2639F983C267560757EE8016B71 /* JWK+RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6280D208E4D395E579C2A49CF8A7DE6 /* JWK+RSA.swift */; };
+		2AFCDFE6A273702D6F5FBA2CB9CEEA89 /* JSONObjectPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F73EEFDF7F9CBE27F5268A2C5C40445 /* JSONObjectPayload.swift */; };
+		2E4C1D73F9B4BE6AB4651AAF2A33C080 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6833196048BBD3099FA1E841191042A /* Identity.swift */; };
+		2E91482C596C57275E8C3E92D9459965 /* _ObjectiveManagementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C06DCF74DEFC979615128EF18D1FCCC /* _ObjectiveManagementAPI.swift */; };
+		2ED518A3FA8DCBE08E621AC5C32844A9 /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4221A6AB1B01170C3D9277D48E3F41F /* SideMenuPushCoordinator.swift */; };
+		34FC7C594EE887C6670A84323316F0BC /* IDTokenValidatorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8580BC0D4CBC4480E0D279DEA58DD6 /* IDTokenValidatorContext.swift */; };
+		37BFAC529368699DED04412DB116BD90 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD09CF034CE86FC89CEAF15D215ACA /* Errors.swift */; };
+		3833083FC6BFBA503C9FC9C68376203C /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBC915F5D36EE86AD61F94A5AC9FCB /* NSError+Helper.swift */; };
+		3846AFE38D1B63A9F0D9073C4ABC6DAA /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FAB9595E4CF6C2701F9BFCB3F75837 /* SideMenuNavigationController.swift */; };
+		3E18B004D34ED5441A193684EEB25BD3 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242514B5A974F83D7DB8BE059F60B575 /* SideMenuPresentationStyle.swift */; };
+		3EE70F74E18571874287B97D7641BA7F /* JWKS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83155C227451FEC6D4A952972F0594D9 /* JWKS.swift */; };
+		4859275B55A35267EC1D394764F6128D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A8C407A3EC6FAFD3570D94C6656D7D /* Response.swift */; };
+		49533E706980EAA66039DB3F38F2A28A /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E92114C344AE8A4D40C3E49ECCBD169 /* SimpleKeychain.framework */; };
+		4CB0FAC615F7C6324BD74DC2CEF70F51 /* Auth0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 391299F51852DF5E78863903032BD175 /* Auth0-dummy.m */; };
+		4DC6B7D91C30204B8F6DF6C81F219DC0 /* SimpleKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AF10DE4E93F6D71CA2F8F96B09DEE /* SimpleKeychain-dummy.m */; };
+		4E88B70410F6837FBD463EA4B6C33155 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84C70B33EAC62431B9DD67D1024A16 /* Extensions.swift */; };
+		53D61E1A80DB1962DF9146EC301D151F /* OAuth2Grant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BED9294088A211804A7335AEC43F19 /* OAuth2Grant.swift */; };
+		562590480CD89E5C6A191D6D0DBB240F /* A0SimpleKeychain+KeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E864240BF4548C5826BB0CBA8CFF4AA9 /* A0SimpleKeychain+KeyPair.m */; };
+		564747C8631A7C4CF2E6F0C8120A4A4C /* WebAuthenticatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD46261617F3B8229CB4EEECA428233 /* WebAuthenticatable.swift */; };
+		56BC5638EB64537C7AE45AADA512AB26 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D272D716B77B0723553447F165B5DD /* Handlers.swift */; };
+		5939998F45BC3D41273E018CB7A9A399 /* BaseAuthTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00374C12A71CEF4018A62825B6F580C8 /* BaseAuthTransaction.swift */; };
+		5A497CB1B9901F80CEE853D333A3721D /* Auth0Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E670C734174B5AD81C6CCE6E378D797 /* Auth0Error.swift */; };
+		5B64910E5E7AEB168FB1463894C2E176 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6620311D0EDDD6F0CB788A32A8E19 /* Users.swift */; };
+		5F237E7E41E9759AC99453AC1E011137 /* SessionCallbackTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79359272382C210A835B5E9506DE9EE0 /* SessionCallbackTransaction.swift */; };
+		644BEE229C53B59F1C68AD61D92B70FD /* SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DE8317BA4663E2789D88E2C274DF2B /* SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		647885596AAC09B0413F07E2DC733074 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F24A0C3D178162DC3E4F17100ACC13 /* Profile.swift */; };
+		667F36F4A03E02349286319BD83B8CBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EB2316FEBBDA7321B103B88734234D /* UIKit.framework */; };
+		66EC7587AF5B4A1E73F334764A7BE210 /* A0ChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CF93EB7DB3C198998762FB9315D147 /* A0ChallengeGenerator.m */; };
+		674877CBD8A08565CFEB59419ADC4032 /* CredentialsManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F685F703FDCAC2FF4E8BE3D71D768E /* CredentialsManagerError.swift */; };
+		6E940C89414F12244419074797274CC8 /* A0JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69DBED39CAB2CE9E273A437FE528B6 /* A0JWT.swift */; };
+		6FC7B6F2CA574085656A1067C0E87E79 /* ManagementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B111F2BD9E5F08B5FD596D3E3DE1198 /* ManagementError.swift */; };
+		71B11342537D6949773E7BEDA74CAB65 /* NSURL+Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402175C8526A22EF561308A268C06A8B /* NSURL+Auth0.swift */; };
+		726E2ABD01E7918A6461B83734162CE3 /* A0SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9262692EDF916CD6D17E2D0C939B2155 /* A0SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72DA7F412D36835CB1ACBA58FE4C706F /* _ObjectiveWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055104C11DE955DA53DED6BDC58E39A /* _ObjectiveWebAuth.swift */; };
+		730874225865FFEE25F60831C481E6F5 /* Pods-TracMobility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F512DAC0E037B3061DFB0A35CB8F24 /* Pods-TracMobility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D8072A379878000E0F6605D6D874D9 /* A0SimpleKeychain+KeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B867D5ABFD5006560EC06A30C34BA9B /* A0SimpleKeychain+KeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		761EC698F1E152E7BCCFF6C5B2DCBDC4 /* Auth0Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7353C301AF4C4A7CC91BF0A48CA47AF7 /* Auth0Authentication.swift */; };
+		77AF2098DDCCAAE0CE4A20725C466905 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00364594B82AA072B8A1C030D12FCD /* SideMenuManager.swift */; };
+		789B84C5A99A1963B2D7C3B5DD31170E /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C360C7F5F88DC7F954EA72A577313BE /* Requestable.swift */; };
+		790C5E4D3F13225E9D007286C1F1A614 /* JWTDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59E903C2405C56401423F7E585859C /* JWTDecode.swift */; };
+		791AD9EE18B8E8E058174E01621A32AB /* A0RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5774AA65F77CD3B34C36D22F1665B080 /* A0RSA.m */; };
+		7EE79957319B9F8EEC9D6A0F27654588 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697548595E2565FEC0097CF8F52800F /* ValidationError.swift */; };
+		83D40C6AA7F61D7CF108B40BF06A0EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */; };
+		85B9916E3483553FDB1AAF9A0CB76D98 /* JWTDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1002B0CD36F9A9EB8E8C20D0FDB131C9 /* JWTDecode-dummy.m */; };
+		86AD5E522BECB5A83EB0D5B8EA60C4BB /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A4210E8259FACCE1352FC2C286D05 /* JWT.swift */; };
+		86D824B274DCD84D572293FC555F8D96 /* A0ChallengeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE40588F12D897BDEE209397B5E2621F /* A0ChallengeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CE447B47AF3FB3A26B915FD614FCE1 /* IDTokenValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4649A74980B8D96F29E2C645137CAABC /* IDTokenValidator.swift */; };
+		890FF25D0CCFF9BADECBA64DCCEFF4FF /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F69DCD55D662A3B26D6648673218E /* SideMenuAnimationController.swift */; };
+		895391C7E3CBD618FFC14059B98CBA68 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688D8C290FE0E95E43BD772D0A6919E /* Loggable.swift */; };
+		8C06632AA14D12278B1277AC0CC6A0B2 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F265A899CD9D968BE80BBFE9DA639 /* SideMenuInteractionController.swift */; };
+		8D04B5B29201EEDF19BA31DDC7FDFB75 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4C8B3E39284FFB24268F6C7AFD4814 /* LocalAuthentication.framework */; };
+		8D99D40053441637EA7A13B95CE74DA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560016A99B5A49EA6ACF17E6EE0FAF8E /* Logger.swift */; };
+		8FE9B6FC65010C719EB926427BA24CB1 /* SilentSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA82772C9067B92A9C001DD8C08072B /* SilentSafariViewController.swift */; };
+		905A503F069C27E841BAD9F4EFD4F1AF /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44C6D9024A6CF8995180C407D670E9F /* Protected.swift */; };
+		944FFA9A6589D6ABAD28570B51BB09BC /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428F7A210A7C718B07CE1BBFBBB243A /* AuthProvider.swift */; };
+		95A1E76D4EFC60DF87FB82F19DB4FFCA /* Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726F32450D266C969360FEA4BF44D32 /* Auth0.swift */; };
+		A002C5FCC8D5FAF15FBBC5B676262343 /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4E6B9239ED248F070286EAFA363222 /* CredentialsManager.swift */; };
+		A033CF039695CED2225FBEB7E25B6535 /* String+URLSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5A9AA2256DD6F0DF0D0C3389CC481 /* String+URLSafe.swift */; };
+		A124236E79CF4C7BF5988D079C86F802 /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091116728EE59F0F391ED8A40D3DC624 /* Management.swift */; };
+		A366F995AB1B0785EFA26EDD51708746 /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0100BD14383526B260EF2B369C633E0 /* JWTDecode.framework */; };
+		A3E13EDBC094E479447B7FC66399B861 /* SafariSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BE73279256D30C222F7252286791B /* SafariSession.swift */; };
+		A4666BC7F6E0D8BBDD22A1294637FA91 /* _ObjectiveAuthenticationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF3484EDEDE06A82FC61646209E294 /* _ObjectiveAuthenticationAPI.swift */; };
+		A6A2EBCBD7B8B1244DB8E449297029BD /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76DA7AA7503207E157ED051CF7EC41 /* AuthSession.swift */; };
+		AABE741EC2F6202444A5D9ABF91CFFF2 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED4E4EF3428D71AF470038D9E8CF60 /* Date.swift */; };
+		AE13A87CBB9DD3F17D4909A02B77023F /* IDTokenSignatureValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082DDDF03EFA9C749F48D7F894ECB69 /* IDTokenSignatureValidator.swift */; };
+		B01BE472A19FB04C4A7000865908B8EC /* A0SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8636629400958D764063AA4E90267847 /* A0SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FBBA93EF9C81F71331550B5AEAB8EF /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E275E9D53D3C60448ACAAF9376CB3A9A /* TransactionStore.swift */; };
+		B27B12C5D2EF1BE7B3CBBBC8FA98110E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */; };
+		B7883CABA5509F981F534EA15BAC8E24 /* A0SimpleKeychain+RSAPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA24E2D269F9C873CB058D9EF05060 /* A0SimpleKeychain+RSAPublicKey.swift */; };
+		BB988F9C5AC7353874C50AEEE3781FFD /* Array+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D7238895EF20CED1370C461817101 /* Array+Encode.swift */; };
+		C347880249E2215DDDDD63675A31327E /* Pods-TracMobility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64460896588B62BE966AA86DAE95352 /* Pods-TracMobility-dummy.m */; };
+		C798DA148F7F666F393F2009DDF73E35 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F259F951BDF0F66C31DD8A50C9174F /* Initializable.swift */; };
+		C96A55C2A869A97AC4CA628A7F2A2A21 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62200EADE95E0212BEC76C5DB83E5A /* UITableViewVibrantCell.swift */; };
+		CC63DE6971E96DA610E35607FED070C6 /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0249686A98E64D77975167A31E169294 /* A0SimpleKeychain.m */; };
+		CE40437A4DEE50CC4F0D51772948CB7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */; };
+		CF7B55E45FC55A4CD9D6919864B439AE /* AuthenticationServicesSessionCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3449BAFD8297CEB27DC5D5A384D5D003 /* AuthenticationServicesSessionCallback.swift */; };
+		D1BD7393C7934049B3E51D9C5A5CD8A0 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431E20E145C09DBF1540614531E12A7 /* Print.swift */; };
+		D3BDBB904E42E860F35E9DB5AE6AA671 /* JWT+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1A7DFD1AD8465760162B511BD7C61 /* JWT+Header.swift */; };
+		D3D22BB8C279DC03EA91BFE3F5412477 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17120734236A857987BA4DB14DD61748 /* Deprecations.swift */; };
+		D5C1CFD7679B4685D29D9A246D30244A /* UIApplication+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B16DE6710B47FA3A7FA79FDE4D504D /* UIApplication+Shared.swift */; };
+		D5E5A76FB19A2C3061B5140941706602 /* ClaimValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7051A174CC9CD38C0A6BA2E2D17A457 /* ClaimValidators.swift */; };
+		D777716F0B6C0754B7B0230531743BC4 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470FB73C6E67F56D5B698E0DB601AD8 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC04073F4C05395B9812D9FDCD9EF40 /* AuthCancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0C1D22A080EEBCD6217F60A5C9AC2 /* AuthCancelable.swift */; };
+		DDB08BBF9EF0F39387D03717F2F4E721 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638D81542330CB631166C78850F44BF1 /* Telemetry.swift */; };
+		DDB550E330B217E68009822E05CE54D2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B57D22903AB094E49B3B148E6CEB7 /* Result.swift */; };
+		DE587924F87AED357ECEA158F89D1945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */; };
+		DF025A09B7E7081E4025AF5358B16F00 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B105173E71F2F06E1E7EBD3BCD0B73 /* SafariServices.framework */; };
+		E0804A914CA5395D625CADDA8E0BE07F /* Auth0.h in Headers */ = {isa = PBXBuildFile; fileRef = 747BFB7C3474FEA94480ECA208BCC703 /* Auth0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CD16ECB8EA2A85B692D9746CED8C0A /* NSData+URLSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D8DFA74626C8F835AA79DEC994C3D9 /* NSData+URLSafe.swift */; };
+		E96C1FB4A3F4601180C37592CAEAE2F6 /* TokenValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17BE6886C5D673AC3FDA604AE89924 /* TokenValidators.swift */; };
+		EED6433531BA543E29624577B9B1F18D /* ControllerModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2ACEF248572D0CDEFCF5369E47886 /* ControllerModalPresenter.swift */; };
+		EF30331943C7F2BDF7056B5275ABC66F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A06BD110B2EF1848F19448B41B074F /* UserInfo.swift */; };
+		F1F72D383098F92022F9AE78DDF46C3F /* A0RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 436E91280CE01884812853DABC92586C /* A0RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F723C94CD304E58CAAB80FA890F74E /* BioAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401E7D3DF93FAF7E6B19F6F10DD23BEE /* BioAuthentication.swift */; };
+		F41ED9EC71B5D34272F2FED4B95E8AE6 /* WebAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935224B1C524A1D95BF7AA5B8076E71 /* WebAuthError.swift */; };
+		F42DBAE39B8DBEA80DD187805BF516B0 /* SimpleKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BEF1CC0F23CE523ED5CFD0BBBEC179 /* SimpleKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A471E5C254B27D3A645793725E20B1 /* NSURLComponents+OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F2FD44861A5681ECB04A3A585AD714 /* NSURLComponents+OAuth2.swift */; };
+		FA2A3765B1B3A3E31B7001D4FFE6688C /* AuthenticationServicesSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1618E831BD90CE21308C44097A4E3 /* AuthenticationServicesSession.swift */; };
+		FC4588DF99BA17E61DB3747BA5F14B78 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579D092F8818EB9F58798B5A6C5D76F /* ResponseType.swift */; };
+		FC7D6434302C46978BAEC4C05301B52C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD91706A1ECD476DEC9276B13ACBE97C /* Request.swift */; };
+		FDA43146F0125B5726A907898DBB5D9B /* ValidatorJWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AAAF5082D9BE2E66857DA2D2E9A3C8 /* ValidatorJWT.swift */; };
+		FEA733E84769114AD1FE267A10EA7204 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC23EBF722C472BFF4B3D62E7566CC /* Credentials.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C4BCC91769063BC36BB8F526C38A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E1F0E7CBECE226FC294E79C21B0033;
+			remoteInfo = JWTDecode;
+		};
+		5C0E35EFF3440A09BC2D9EB4DF70ACE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E1F0E7CBECE226FC294E79C21B0033;
+			remoteInfo = JWTDecode;
+		};
+		7ABBBF31D7335F453A9A78D864E3C3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A440A37D50015E369921294617C612;
+			remoteInfo = Auth0;
+		};
+		89B069898770E469F5C119C04FD77B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192AEFA366AAFE1F45B918C022FE489C;
+			remoteInfo = SimpleKeychain;
+		};
+		98520E69C0D267FA1ED32DC8329D6C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192AEFA366AAFE1F45B918C022FE489C;
+			remoteInfo = SimpleKeychain;
+		};
+		9ACB5D6E538F568CA9E252A10A4F167A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		CFA3B1F95238AF83136E929E67252630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00374C12A71CEF4018A62825B6F580C8 /* BaseAuthTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAuthTransaction.swift; path = Auth0/BaseAuthTransaction.swift; sourceTree = "<group>"; };
+		0055104C11DE955DA53DED6BDC58E39A /* _ObjectiveWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveWebAuth.swift; path = Auth0/_ObjectiveWebAuth.swift; sourceTree = "<group>"; };
+		0082DDDF03EFA9C749F48D7F894ECB69 /* IDTokenSignatureValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDTokenSignatureValidator.swift; path = Auth0/IDTokenSignatureValidator.swift; sourceTree = "<group>"; };
+		0249686A98E64D77975167A31E169294 /* A0SimpleKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SimpleKeychain.m; path = SimpleKeychain/A0SimpleKeychain.m; sourceTree = "<group>"; };
+		02A8C407A3EC6FAFD3570D94C6656D7D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Auth0/Response.swift; sourceTree = "<group>"; };
+		035D7238895EF20CED1370C461817101 /* Array+Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Encode.swift"; path = "Auth0/Array+Encode.swift"; sourceTree = "<group>"; };
+		03FAAE053DE4C0E0D40C5529AE3E6CE5 /* SimpleKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleKeychain.debug.xcconfig; sourceTree = "<group>"; };
+		063DB918521A2D3D829FC67C6849CB1D /* UserPatchAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPatchAttributes.swift; path = Auth0/UserPatchAttributes.swift; sourceTree = "<group>"; };
+		091116728EE59F0F391ED8A40D3DC624 /* Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Management.swift; path = Auth0/Management.swift; sourceTree = "<group>"; };
+		0933D40E7753404C1DFFFFED71177A23 /* SimpleKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleKeychain-Info.plist"; sourceTree = "<group>"; };
+		0A6D2B90CC925D15B30C4161C6C00C96 /* SimpleKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleKeychain.release.xcconfig; sourceTree = "<group>"; };
+		0C06DCF74DEFC979615128EF18D1FCCC /* _ObjectiveManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveManagementAPI.swift; path = Auth0/_ObjectiveManagementAPI.swift; sourceTree = "<group>"; };
+		0C452B18D0E7AB8597058D8A628C72BE /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		0E4C8B3E39284FFB24268F6C7AFD4814 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		0E670C734174B5AD81C6CCE6E378D797 /* Auth0Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Error.swift; path = Auth0/Auth0Error.swift; sourceTree = "<group>"; };
+		1002B0CD36F9A9EB8E8C20D0FDB131C9 /* JWTDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWTDecode-dummy.m"; sourceTree = "<group>"; };
+		10DA8620B5389CFE39475EDA3F8053A0 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		1288A681B1EB36E0912E82775F8F84E8 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Auth0/Authentication.swift; sourceTree = "<group>"; };
+		17120734236A857987BA4DB14DD61748 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		17CA24E2D269F9C873CB058D9EF05060 /* A0SimpleKeychain+RSAPublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "A0SimpleKeychain+RSAPublicKey.swift"; path = "Auth0/A0SimpleKeychain+RSAPublicKey.swift"; sourceTree = "<group>"; };
+		18C2ACEF248572D0CDEFCF5369E47886 /* ControllerModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerModalPresenter.swift; path = Auth0/ControllerModalPresenter.swift; sourceTree = "<group>"; };
+		18C46E374FA37EE164F60207FAFDB162 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		1D59E903C2405C56401423F7E585859C /* JWTDecode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTDecode.swift; path = JWTDecode/JWTDecode.swift; sourceTree = "<group>"; };
+		1DC85C3FA5A41794D28DB83C9AD6614B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1EA82772C9067B92A9C001DD8C08072B /* SilentSafariViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilentSafariViewController.swift; path = Auth0/SilentSafariViewController.swift; sourceTree = "<group>"; };
+		1F76DA7AA7503207E157ED051CF7EC41 /* AuthSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthSession.swift; path = Auth0/AuthSession.swift; sourceTree = "<group>"; };
+		2390A38AFFB1085C878915F84CD55319 /* SessionTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionTransaction.swift; path = Auth0/SessionTransaction.swift; sourceTree = "<group>"; };
+		242514B5A974F83D7DB8BE059F60B575 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		2428F7A210A7C718B07CE1BBFBBB243A /* AuthProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthProvider.swift; path = Auth0/AuthProvider.swift; sourceTree = "<group>"; };
+		25E7692069F18F06E521B505CC558610 /* AuthenticationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationError.swift; path = Auth0/AuthenticationError.swift; sourceTree = "<group>"; };
+		2758357EBF8AD556F2EE38C26C6807F3 /* Auth0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auth0.debug.xcconfig; sourceTree = "<group>"; };
+		2ABDF5C6D0653872ED0D7302B4915FD9 /* JWTAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTAlgorithm.swift; path = Auth0/JWTAlgorithm.swift; sourceTree = "<group>"; };
+		2AD007E7D08D3D7B97132F532EE11E15 /* JWTDecode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWTDecode-Info.plist"; sourceTree = "<group>"; };
+		2DFB432F405021763C396F83E17C413A /* Pods-TracMobility-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TracMobility-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E0A4210E8259FACCE1352FC2C286D05 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = JWTDecode/JWT.swift; sourceTree = "<group>"; };
+		2E92114C344AE8A4D40C3E49ECCBD169 /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BED9294088A211804A7335AEC43F19 /* OAuth2Grant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Grant.swift; path = Auth0/OAuth2Grant.swift; sourceTree = "<group>"; };
+		3431E20E145C09DBF1540614531E12A7 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		3449BAFD8297CEB27DC5D5A384D5D003 /* AuthenticationServicesSessionCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationServicesSessionCallback.swift; path = Auth0/AuthenticationServicesSessionCallback.swift; sourceTree = "<group>"; };
+		34854CF6A054FDCB8370EDEC4F208499 /* MobileWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileWebAuth.swift; path = Auth0/MobileWebAuth.swift; sourceTree = "<group>"; };
+		357F265A899CD9D968BE80BBFE9DA639 /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		391299F51852DF5E78863903032BD175 /* Auth0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auth0-dummy.m"; sourceTree = "<group>"; };
+		3E8B57D22903AB094E49B3B148E6CEB7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Auth0/Result.swift; sourceTree = "<group>"; };
+		3EB5A9AA2256DD6F0DF0D0C3389CC481 /* String+URLSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+URLSafe.swift"; path = "Auth0/String+URLSafe.swift"; sourceTree = "<group>"; };
+		401E7D3DF93FAF7E6B19F6F10DD23BEE /* BioAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioAuthentication.swift; path = Auth0/BioAuthentication.swift; sourceTree = "<group>"; };
+		402175C8526A22EF561308A268C06A8B /* NSURL+Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURL+Auth0.swift"; path = "Auth0/NSURL+Auth0.swift"; sourceTree = "<group>"; };
+		42F24A0C3D178162DC3E4F17100ACC13 /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Auth0/Profile.swift; sourceTree = "<group>"; };
+		431DE50331EAF872CF8BE347BE74B8CD /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		435F2595A13E46C5F8C183CFACA7184D /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+		436E91280CE01884812853DABC92586C /* A0RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0RSA.h; path = Auth0/ObjectiveC/A0RSA.h; sourceTree = "<group>"; };
+		43A1618E831BD90CE21308C44097A4E3 /* AuthenticationServicesSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationServicesSession.swift; path = Auth0/AuthenticationServicesSession.swift; sourceTree = "<group>"; };
+		4649A74980B8D96F29E2C645137CAABC /* IDTokenValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDTokenValidator.swift; path = Auth0/IDTokenValidator.swift; sourceTree = "<group>"; };
+		48EB2316FEBBDA7321B103B88734234D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4B4E6B9239ED248F070286EAFA363222 /* CredentialsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManager.swift; path = Auth0/CredentialsManager.swift; sourceTree = "<group>"; };
+		4CBC23EBF722C472BFF4B3D62E7566CC /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = Auth0/Credentials.swift; sourceTree = "<group>"; };
+		4D8580BC0D4CBC4480E0D279DEA58DD6 /* IDTokenValidatorContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDTokenValidatorContext.swift; path = Auth0/IDTokenValidatorContext.swift; sourceTree = "<group>"; };
+		53F512DAC0E037B3061DFB0A35CB8F24 /* Pods-TracMobility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TracMobility-umbrella.h"; sourceTree = "<group>"; };
+		54B6C30AA71A351816EF85FDA9CA8496 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		55460C6CAF36007DEFB9BFB7C66FF60E /* Pods-TracMobility-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TracMobility-resources.sh"; sourceTree = "<group>"; };
+		560016A99B5A49EA6ACF17E6EE0FAF8E /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Auth0/Logger.swift; sourceTree = "<group>"; };
+		5726F32450D266C969360FEA4BF44D32 /* Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0.swift; path = Auth0/Auth0.swift; sourceTree = "<group>"; };
+		5774AA65F77CD3B34C36D22F1665B080 /* A0RSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0RSA.m; path = Auth0/ObjectiveC/A0RSA.m; sourceTree = "<group>"; };
+		5B69DBED39CAB2CE9E273A437FE528B6 /* A0JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = A0JWT.swift; path = JWTDecode/A0JWT.swift; sourceTree = "<group>"; };
+		5EDA0A870640D3032BFE4224F64C7CA1 /* Pods-TracMobility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TracMobility-Info.plist"; sourceTree = "<group>"; };
+		5F73EEFDF7F9CBE27F5268A2C5C40445 /* JSONObjectPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONObjectPayload.swift; path = Auth0/JSONObjectPayload.swift; sourceTree = "<group>"; };
+		62BEF1CC0F23CE523ED5CFD0BBBEC179 /* SimpleKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-umbrella.h"; sourceTree = "<group>"; };
+		62F259F951BDF0F66C31DD8A50C9174F /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		638D81542330CB631166C78850F44BF1 /* Telemetry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Telemetry.swift; path = Auth0/Telemetry.swift; sourceTree = "<group>"; };
+		65D6620311D0EDDD6F0CB788A32A8E19 /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Auth0/Users.swift; sourceTree = "<group>"; };
+		67B1A7DFD1AD8465760162B511BD7C61 /* JWT+Header.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JWT+Header.swift"; path = "Auth0/JWT+Header.swift"; sourceTree = "<group>"; };
+		68D0C1D22A080EEBCD6217F60A5C9AC2 /* AuthCancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthCancelable.swift; path = Auth0/AuthCancelable.swift; sourceTree = "<group>"; };
+		68DE8317BA4663E2789D88E2C274DF2B /* SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleKeychain.h; path = SimpleKeychain/SimpleKeychain.h; sourceTree = "<group>"; };
+		6A17BE6886C5D673AC3FDA604AE89924 /* TokenValidators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenValidators.swift; path = JWTDecode/TokenValidators.swift; sourceTree = "<group>"; };
+		6B111F2BD9E5F08B5FD596D3E3DE1198 /* ManagementError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagementError.swift; path = Auth0/ManagementError.swift; sourceTree = "<group>"; };
+		6B6F6ABFC8D5167FFAEEBFE03C792FA5 /* JWTDecode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWTDecode.modulemap; sourceTree = "<group>"; };
+		6B867D5ABFD5006560EC06A30C34BA9B /* A0SimpleKeychain+KeyPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "A0SimpleKeychain+KeyPair.h"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.h"; sourceTree = "<group>"; };
+		6D5ACD50C975FC79731B2CAFE8C404A9 /* Auth0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auth0.release.xcconfig; sourceTree = "<group>"; };
+		7087FEF4612227C9C9B503D6959929C1 /* A0SHA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SHA.m; path = Auth0/ObjectiveC/A0SHA.m; sourceTree = "<group>"; };
+		70A06BD110B2EF1848F19448B41B074F /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfo.swift; path = Auth0/UserInfo.swift; sourceTree = "<group>"; };
+		7115139913BF96A0839BC5861B28E9FF /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		7353C301AF4C4A7CC91BF0A48CA47AF7 /* Auth0Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Authentication.swift; path = Auth0/Auth0Authentication.swift; sourceTree = "<group>"; };
+		743135213B9FE92BA7DBC05E6733C144 /* Pods-TracMobility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TracMobility.debug.xcconfig"; sourceTree = "<group>"; };
+		747BFB7C3474FEA94480ECA208BCC703 /* Auth0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Auth0.h; path = Auth0/Auth0.h; sourceTree = "<group>"; };
+		74D8DFA74626C8F835AA79DEC994C3D9 /* NSData+URLSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+URLSafe.swift"; path = "Auth0/NSData+URLSafe.swift"; sourceTree = "<group>"; };
+		79359272382C210A835B5E9506DE9EE0 /* SessionCallbackTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionCallbackTransaction.swift; path = Auth0/SessionCallbackTransaction.swift; sourceTree = "<group>"; };
+		79B105173E71F2F06E1E7EBD3BCD0B73 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWTDecode.framework; path = JWTDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFF4C3D038B7DECE2673B512408C035 /* BaseWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseWebAuth.swift; path = Auth0/BaseWebAuth.swift; sourceTree = "<group>"; };
+		7EE10129D524DEBEAA8225F67C1975B1 /* SimpleKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleKeychain.modulemap; sourceTree = "<group>"; };
+		7FCBC915F5D36EE86AD61F94A5AC9FCB /* NSError+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+Helper.swift"; path = "Auth0/NSError+Helper.swift"; sourceTree = "<group>"; };
+		80975361169EB0F5F96F131003D58BBF /* Pods-TracMobility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TracMobility.modulemap"; sourceTree = "<group>"; };
+		83155C227451FEC6D4A952972F0594D9 /* JWKS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWKS.swift; path = Auth0/JWKS.swift; sourceTree = "<group>"; };
+		8470FB73C6E67F56D5B698E0DB601AD8 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		8636629400958D764063AA4E90267847 /* A0SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SimpleKeychain.h; path = SimpleKeychain/A0SimpleKeychain.h; sourceTree = "<group>"; };
+		87E03DC03F084E4F1979FF26634838A0 /* Auth0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Auth0.modulemap; sourceTree = "<group>"; };
+		89D272D716B77B0723553447F165B5DD /* Handlers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handlers.swift; path = Auth0/Handlers.swift; sourceTree = "<group>"; };
+		8C360C7F5F88DC7F954EA72A577313BE /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = Auth0/Requestable.swift; sourceTree = "<group>"; };
+		8EED4E4EF3428D71AF470038D9E8CF60 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Auth0/Date.swift; sourceTree = "<group>"; };
+		9262692EDF916CD6D17E2D0C939B2155 /* A0SHA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SHA.h; path = Auth0/ObjectiveC/A0SHA.h; sourceTree = "<group>"; };
+		93CF93EB7DB3C198998762FB9315D147 /* A0ChallengeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0ChallengeGenerator.m; path = Auth0/ObjectiveC/A0ChallengeGenerator.m; sourceTree = "<group>"; };
+		999459C45731F18EC49428C10057EA51 /* Auth0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Auth0.framework; path = Auth0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B84C70B33EAC62431B9DD67D1024A16 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		9D793AC7EFAD00F0CDB922CDBEE100F3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0AFBE8A4F78F72C52DCBEB7FE614A82 /* JWTDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-prefix.pch"; sourceTree = "<group>"; };
+		A0FAB9595E4CF6C2701F9BFCB3F75837 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		A24B746DA9B126FADFAE9C7C3CE9CF53 /* Pods-TracMobility-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TracMobility-acknowledgements.plist"; sourceTree = "<group>"; };
+		A317C1B3F9D007F51FAC256626448D2D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A64460896588B62BE966AA86DAE95352 /* Pods-TracMobility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TracMobility-dummy.m"; sourceTree = "<group>"; };
+		A64BE73279256D30C222F7252286791B /* SafariSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariSession.swift; path = Auth0/SafariSession.swift; sourceTree = "<group>"; };
+		B1DA16224839C9C01339CE6B5D17C6A2 /* Auth0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Auth0-Info.plist"; sourceTree = "<group>"; };
+		B29B8B49583093E1482E2277E9E94655 /* Pods-TracMobility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TracMobility.release.xcconfig"; sourceTree = "<group>"; };
+		B2FD09CF034CE86FC89CEAF15D215ACA /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = JWTDecode/Errors.swift; sourceTree = "<group>"; };
+		B53BDAABF7474387636EE70164D2B049 /* NativeAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeAuth.swift; path = Auth0/NativeAuth.swift; sourceTree = "<group>"; };
+		B60AE4CA74153FD8CB7B2C1B17CE8CB6 /* JWTDecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.debug.xcconfig; sourceTree = "<group>"; };
+		B67631E3B8DF342F699B6993185F6FC2 /* Pods-TracMobility-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TracMobility-frameworks.sh"; sourceTree = "<group>"; };
+		B6833196048BBD3099FA1E841191042A /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = Auth0/Identity.swift; sourceTree = "<group>"; };
+		B8F32D18A2063838B83FA8D43D77AF12 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		B935224B1C524A1D95BF7AA5B8076E71 /* WebAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuthError.swift; path = Auth0/WebAuthError.swift; sourceTree = "<group>"; };
+		B9B16DE6710B47FA3A7FA79FDE4D504D /* UIApplication+Shared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Shared.swift"; path = "Auth0/UIApplication+Shared.swift"; sourceTree = "<group>"; };
+		B9F2FD44861A5681ECB04A3A585AD714 /* NSURLComponents+OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLComponents+OAuth2.swift"; path = "Auth0/NSURLComponents+OAuth2.swift"; sourceTree = "<group>"; };
+		BEB2D133AE8B296037F281765EDBD61B /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		BF1A0D25C765B20D6EDE7273B141B566 /* Pods_TracMobility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TracMobility.framework; path = "Pods-TracMobility.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0100BD14383526B260EF2B369C633E0 /* JWTDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWTDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C045B7B17F7973CB76F71B4F325E30C6 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C697548595E2565FEC0097CF8F52800F /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = JWTDecode/ValidationError.swift; sourceTree = "<group>"; };
+		CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleKeychain.framework; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE40588F12D897BDEE209397B5E2621F /* A0ChallengeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ChallengeGenerator.h; path = Auth0/ObjectiveC/A0ChallengeGenerator.h; sourceTree = "<group>"; };
+		CF2F69DCD55D662A3B26D6648673218E /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		D28755E8281FD4BA791065D42A44AD67 /* Auth0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-umbrella.h"; sourceTree = "<group>"; };
+		D4221A6AB1B01170C3D9277D48E3F41F /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		D46F8AFBEEF048AB403459A749B47917 /* SimpleKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-prefix.pch"; sourceTree = "<group>"; };
+		D579D092F8818EB9F58798B5A6C5D76F /* ResponseType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseType.swift; path = Auth0/ResponseType.swift; sourceTree = "<group>"; };
+		D688D8C290FE0E95E43BD772D0A6919E /* Loggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggable.swift; path = Auth0/Loggable.swift; sourceTree = "<group>"; };
+		D7051A174CC9CD38C0A6BA2E2D17A457 /* ClaimValidators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClaimValidators.swift; path = Auth0/ClaimValidators.swift; sourceTree = "<group>"; };
+		DC62200EADE95E0212BEC76C5DB83E5A /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		E204EEDFBC0C2C166541A1E658345C77 /* JWTDecode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.release.xcconfig; sourceTree = "<group>"; };
+		E275E9D53D3C60448ACAAF9376CB3A9A /* TransactionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionStore.swift; path = Auth0/TransactionStore.swift; sourceTree = "<group>"; };
+		E3462718529CDE56B33B20E74EFB2D4F /* Auth0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-prefix.pch"; sourceTree = "<group>"; };
+		E3AAAF5082D9BE2E66857DA2D2E9A3C8 /* ValidatorJWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorJWT.swift; path = JWTDecode/ValidatorJWT.swift; sourceTree = "<group>"; };
+		E44C6D9024A6CF8995180C407D670E9F /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		E7F685F703FDCAC2FF4E8BE3D71D768E /* CredentialsManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManagerError.swift; path = Auth0/CredentialsManagerError.swift; sourceTree = "<group>"; };
+		E81C0DB1FD01EB085E15CCEF8FBD73E5 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		E864240BF4548C5826BB0CBA8CFF4AA9 /* A0SimpleKeychain+KeyPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "A0SimpleKeychain+KeyPair.m"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.m"; sourceTree = "<group>"; };
+		EB38B52B33F3D388011F418C092F9891 /* Optional+DebugDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+DebugDescription.swift"; path = "Auth0/Optional+DebugDescription.swift"; sourceTree = "<group>"; };
+		EC6AF10DE4E93F6D71CA2F8F96B09DEE /* SimpleKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleKeychain-dummy.m"; sourceTree = "<group>"; };
+		EFD46261617F3B8229CB4EEECA428233 /* WebAuthenticatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuthenticatable.swift; path = Auth0/WebAuthenticatable.swift; sourceTree = "<group>"; };
+		F6280D208E4D395E579C2A49CF8A7DE6 /* JWK+RSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JWK+RSA.swift"; path = "Auth0/JWK+RSA.swift"; sourceTree = "<group>"; };
+		FD91706A1ECD476DEC9276B13ACBE97C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Auth0/Request.swift; sourceTree = "<group>"; };
+		FE00364594B82AA072B8A1C030D12FCD /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		FEAF3484EDEDE06A82FC61646209E294 /* _ObjectiveAuthenticationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveAuthenticationAPI.swift; path = Auth0/_ObjectiveAuthenticationAPI.swift; sourceTree = "<group>"; };
+		FF0D51A7ACFBEB473611F4D8C0296EC9 /* JWTDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-umbrella.h"; sourceTree = "<group>"; };
+		FF4C3FE49CE6A4FA6CB658413F512E82 /* AuthTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthTransaction.swift; path = Auth0/AuthTransaction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B85D115573CE30350B7BF62827F6ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE587924F87AED357ECEA158F89D1945 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D21D3F66794ED154AE6287773BAC7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D40C6AA7F61D7CF108B40BF06A0EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA9283343A3B51DF6E29FC09347EDF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE40437A4DEE50CC4F0D51772948CB7C /* Foundation.framework in Frameworks */,
+				A366F995AB1B0785EFA26EDD51708746 /* JWTDecode.framework in Frameworks */,
+				8D04B5B29201EEDF19BA31DDC7FDFB75 /* LocalAuthentication.framework in Frameworks */,
+				DF025A09B7E7081E4025AF5358B16F00 /* SafariServices.framework in Frameworks */,
+				49533E706980EAA66039DB3F38F2A28A /* SimpleKeychain.framework in Frameworks */,
+				667F36F4A03E02349286319BD83B8CBB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91F7848AEF33FB159735908CFF08D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F2400A3D1CC07C79DE79475E35B222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D87C2BC8D3C4B8382407D4C6B16014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27B12C5D2EF1BE7B3CBBBC8FA98110E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0321344B3953BA90EBB5A36F13AC3AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0100BD14383526B260EF2B369C633E0 /* JWTDecode.framework */,
+				2E92114C344AE8A4D40C3E49ECCBD169 /* SimpleKeychain.framework */,
+				73482AA62DC666CBB779B2F7B1CC1723 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1179A4CE8C7068420D9A37A927B26183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D793AC7EFAD00F0CDB922CDBEE100F3 /* GoogleMaps.framework */,
+				1DC85C3FA5A41794D28DB83C9AD6614B /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		152504BD4E198307F8722D64ED3AF4E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A317C1B3F9D007F51FAC256626448D2D /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		267FFAA4A7ADD0B48B48050B8E35A1D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81C0DB1FD01EB085E15CCEF8FBD73E5 /* GoogleMaps.debug.xcconfig */,
+				10DA8620B5389CFE39475EDA3F8053A0 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		3F968C186B6E1C5F24AA109872FF4003 /* Auth0 */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF3484EDEDE06A82FC61646209E294 /* _ObjectiveAuthenticationAPI.swift */,
+				0C06DCF74DEFC979615128EF18D1FCCC /* _ObjectiveManagementAPI.swift */,
+				0055104C11DE955DA53DED6BDC58E39A /* _ObjectiveWebAuth.swift */,
+				CE40588F12D897BDEE209397B5E2621F /* A0ChallengeGenerator.h */,
+				93CF93EB7DB3C198998762FB9315D147 /* A0ChallengeGenerator.m */,
+				436E91280CE01884812853DABC92586C /* A0RSA.h */,
+				5774AA65F77CD3B34C36D22F1665B080 /* A0RSA.m */,
+				9262692EDF916CD6D17E2D0C939B2155 /* A0SHA.h */,
+				7087FEF4612227C9C9B503D6959929C1 /* A0SHA.m */,
+				17CA24E2D269F9C873CB058D9EF05060 /* A0SimpleKeychain+RSAPublicKey.swift */,
+				035D7238895EF20CED1370C461817101 /* Array+Encode.swift */,
+				747BFB7C3474FEA94480ECA208BCC703 /* Auth0.h */,
+				5726F32450D266C969360FEA4BF44D32 /* Auth0.swift */,
+				7353C301AF4C4A7CC91BF0A48CA47AF7 /* Auth0Authentication.swift */,
+				0E670C734174B5AD81C6CCE6E378D797 /* Auth0Error.swift */,
+				68D0C1D22A080EEBCD6217F60A5C9AC2 /* AuthCancelable.swift */,
+				1288A681B1EB36E0912E82775F8F84E8 /* Authentication.swift */,
+				25E7692069F18F06E521B505CC558610 /* AuthenticationError.swift */,
+				43A1618E831BD90CE21308C44097A4E3 /* AuthenticationServicesSession.swift */,
+				3449BAFD8297CEB27DC5D5A384D5D003 /* AuthenticationServicesSessionCallback.swift */,
+				2428F7A210A7C718B07CE1BBFBBB243A /* AuthProvider.swift */,
+				1F76DA7AA7503207E157ED051CF7EC41 /* AuthSession.swift */,
+				FF4C3FE49CE6A4FA6CB658413F512E82 /* AuthTransaction.swift */,
+				00374C12A71CEF4018A62825B6F580C8 /* BaseAuthTransaction.swift */,
+				7CFF4C3D038B7DECE2673B512408C035 /* BaseWebAuth.swift */,
+				401E7D3DF93FAF7E6B19F6F10DD23BEE /* BioAuthentication.swift */,
+				D7051A174CC9CD38C0A6BA2E2D17A457 /* ClaimValidators.swift */,
+				18C2ACEF248572D0CDEFCF5369E47886 /* ControllerModalPresenter.swift */,
+				4CBC23EBF722C472BFF4B3D62E7566CC /* Credentials.swift */,
+				4B4E6B9239ED248F070286EAFA363222 /* CredentialsManager.swift */,
+				E7F685F703FDCAC2FF4E8BE3D71D768E /* CredentialsManagerError.swift */,
+				8EED4E4EF3428D71AF470038D9E8CF60 /* Date.swift */,
+				89D272D716B77B0723553447F165B5DD /* Handlers.swift */,
+				B6833196048BBD3099FA1E841191042A /* Identity.swift */,
+				0082DDDF03EFA9C749F48D7F894ECB69 /* IDTokenSignatureValidator.swift */,
+				4649A74980B8D96F29E2C645137CAABC /* IDTokenValidator.swift */,
+				4D8580BC0D4CBC4480E0D279DEA58DD6 /* IDTokenValidatorContext.swift */,
+				5F73EEFDF7F9CBE27F5268A2C5C40445 /* JSONObjectPayload.swift */,
+				F6280D208E4D395E579C2A49CF8A7DE6 /* JWK+RSA.swift */,
+				83155C227451FEC6D4A952972F0594D9 /* JWKS.swift */,
+				67B1A7DFD1AD8465760162B511BD7C61 /* JWT+Header.swift */,
+				2ABDF5C6D0653872ED0D7302B4915FD9 /* JWTAlgorithm.swift */,
+				D688D8C290FE0E95E43BD772D0A6919E /* Loggable.swift */,
+				560016A99B5A49EA6ACF17E6EE0FAF8E /* Logger.swift */,
+				091116728EE59F0F391ED8A40D3DC624 /* Management.swift */,
+				6B111F2BD9E5F08B5FD596D3E3DE1198 /* ManagementError.swift */,
+				34854CF6A054FDCB8370EDEC4F208499 /* MobileWebAuth.swift */,
+				B53BDAABF7474387636EE70164D2B049 /* NativeAuth.swift */,
+				74D8DFA74626C8F835AA79DEC994C3D9 /* NSData+URLSafe.swift */,
+				7FCBC915F5D36EE86AD61F94A5AC9FCB /* NSError+Helper.swift */,
+				402175C8526A22EF561308A268C06A8B /* NSURL+Auth0.swift */,
+				B9F2FD44861A5681ECB04A3A585AD714 /* NSURLComponents+OAuth2.swift */,
+				32BED9294088A211804A7335AEC43F19 /* OAuth2Grant.swift */,
+				EB38B52B33F3D388011F418C092F9891 /* Optional+DebugDescription.swift */,
+				42F24A0C3D178162DC3E4F17100ACC13 /* Profile.swift */,
+				FD91706A1ECD476DEC9276B13ACBE97C /* Request.swift */,
+				8C360C7F5F88DC7F954EA72A577313BE /* Requestable.swift */,
+				02A8C407A3EC6FAFD3570D94C6656D7D /* Response.swift */,
+				D579D092F8818EB9F58798B5A6C5D76F /* ResponseType.swift */,
+				3E8B57D22903AB094E49B3B148E6CEB7 /* Result.swift */,
+				A64BE73279256D30C222F7252286791B /* SafariSession.swift */,
+				79359272382C210A835B5E9506DE9EE0 /* SessionCallbackTransaction.swift */,
+				2390A38AFFB1085C878915F84CD55319 /* SessionTransaction.swift */,
+				1EA82772C9067B92A9C001DD8C08072B /* SilentSafariViewController.swift */,
+				3EB5A9AA2256DD6F0DF0D0C3389CC481 /* String+URLSafe.swift */,
+				638D81542330CB631166C78850F44BF1 /* Telemetry.swift */,
+				E275E9D53D3C60448ACAAF9376CB3A9A /* TransactionStore.swift */,
+				B9B16DE6710B47FA3A7FA79FDE4D504D /* UIApplication+Shared.swift */,
+				70A06BD110B2EF1848F19448B41B074F /* UserInfo.swift */,
+				063DB918521A2D3D829FC67C6849CB1D /* UserPatchAttributes.swift */,
+				65D6620311D0EDDD6F0CB788A32A8E19 /* Users.swift */,
+				EFD46261617F3B8229CB4EEECA428233 /* WebAuthenticatable.swift */,
+				B935224B1C524A1D95BF7AA5B8076E71 /* WebAuthError.swift */,
+				FC6ACD748B53695410E3A94203B50200 /* Support Files */,
+			);
+			name = Auth0;
+			path = Auth0;
+			sourceTree = "<group>";
+		};
+		54AB5F13437845D9811D4F5917C07261 /* JWTDecode */ = {
+			isa = PBXGroup;
+			children = (
+				5B69DBED39CAB2CE9E273A437FE528B6 /* A0JWT.swift */,
+				B2FD09CF034CE86FC89CEAF15D215ACA /* Errors.swift */,
+				2E0A4210E8259FACCE1352FC2C286D05 /* JWT.swift */,
+				1D59E903C2405C56401423F7E585859C /* JWTDecode.swift */,
+				6A17BE6886C5D673AC3FDA604AE89924 /* TokenValidators.swift */,
+				C697548595E2565FEC0097CF8F52800F /* ValidationError.swift */,
+				E3AAAF5082D9BE2E66857DA2D2E9A3C8 /* ValidatorJWT.swift */,
+				C9C36304F940809A92306D7C8D70AB44 /* Support Files */,
+			);
+			name = JWTDecode;
+			path = JWTDecode;
+			sourceTree = "<group>";
+		};
+		73254DF8CEE9D05A07C285D5D1F42866 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C452B18D0E7AB8597058D8A628C72BE /* SideMenu.modulemap */,
+				431DE50331EAF872CF8BE347BE74B8CD /* SideMenu-dummy.m */,
+				54B6C30AA71A351816EF85FDA9CA8496 /* SideMenu-Info.plist */,
+				B8F32D18A2063838B83FA8D43D77AF12 /* SideMenu-prefix.pch */,
+				8470FB73C6E67F56D5B698E0DB601AD8 /* SideMenu-umbrella.h */,
+				7115139913BF96A0839BC5861B28E9FF /* SideMenu.debug.xcconfig */,
+				435F2595A13E46C5F8C183CFACA7184D /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		73482AA62DC666CBB779B2F7B1CC1723 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4728485F928E461B2B4C8476CFF8ED3 /* Foundation.framework */,
+				0E4C8B3E39284FFB24268F6C7AFD4814 /* LocalAuthentication.framework */,
+				79B105173E71F2F06E1E7EBD3BCD0B73 /* SafariServices.framework */,
+				48EB2316FEBBDA7321B103B88734234D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		774F957E2E6265819526C264D0EE1F5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2D133AE8B296037F281765EDBD61B /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C8B86B8992BC40A359237DEC1ECF595 /* Pods-TracMobility */ = {
+			isa = PBXGroup;
+			children = (
+				80975361169EB0F5F96F131003D58BBF /* Pods-TracMobility.modulemap */,
+				2DFB432F405021763C396F83E17C413A /* Pods-TracMobility-acknowledgements.markdown */,
+				A24B746DA9B126FADFAE9C7C3CE9CF53 /* Pods-TracMobility-acknowledgements.plist */,
+				A64460896588B62BE966AA86DAE95352 /* Pods-TracMobility-dummy.m */,
+				B67631E3B8DF342F699B6993185F6FC2 /* Pods-TracMobility-frameworks.sh */,
+				5EDA0A870640D3032BFE4224F64C7CA1 /* Pods-TracMobility-Info.plist */,
+				55460C6CAF36007DEFB9BFB7C66FF60E /* Pods-TracMobility-resources.sh */,
+				53F512DAC0E037B3061DFB0A35CB8F24 /* Pods-TracMobility-umbrella.h */,
+				743135213B9FE92BA7DBC05E6733C144 /* Pods-TracMobility.debug.xcconfig */,
+				B29B8B49583093E1482E2277E9E94655 /* Pods-TracMobility.release.xcconfig */,
+			);
+			name = "Pods-TracMobility";
+			path = "Target Support Files/Pods-TracMobility";
+			sourceTree = "<group>";
+		};
+		7F774AA919CF5A696B58D881B0E281E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				999459C45731F18EC49428C10057EA51 /* Auth0.framework */,
+				7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */,
+				BF1A0D25C765B20D6EDE7273B141B566 /* Pods_TracMobility.framework */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+				CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EF7E14A93D95BD3A9D2DB01DA9C193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F968C186B6E1C5F24AA109872FF4003 /* Auth0 */,
+				D0DE462257E1950DC63655BA81BDA1E5 /* GoogleMaps */,
+				54AB5F13437845D9811D4F5917C07261 /* JWTDecode */,
+				CE008FB4E5C007002BF01BC0D33343D0 /* SideMenu */,
+				FC258B6D37A8D7E42BBC5E39F5088DCB /* SimpleKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB416D86FE2114A8DFE80EC611E2D6BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE10129D524DEBEAA8225F67C1975B1 /* SimpleKeychain.modulemap */,
+				EC6AF10DE4E93F6D71CA2F8F96B09DEE /* SimpleKeychain-dummy.m */,
+				0933D40E7753404C1DFFFFED71177A23 /* SimpleKeychain-Info.plist */,
+				D46F8AFBEEF048AB403459A749B47917 /* SimpleKeychain-prefix.pch */,
+				62BEF1CC0F23CE523ED5CFD0BBBEC179 /* SimpleKeychain-umbrella.h */,
+				03FAAE053DE4C0E0D40C5529AE3E6CE5 /* SimpleKeychain.debug.xcconfig */,
+				0A6D2B90CC925D15B30C4161C6C00C96 /* SimpleKeychain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleKeychain";
+			sourceTree = "<group>";
+		};
+		C9C36304F940809A92306D7C8D70AB44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6F6ABFC8D5167FFAEEBFE03C792FA5 /* JWTDecode.modulemap */,
+				1002B0CD36F9A9EB8E8C20D0FDB131C9 /* JWTDecode-dummy.m */,
+				2AD007E7D08D3D7B97132F532EE11E15 /* JWTDecode-Info.plist */,
+				A0AFBE8A4F78F72C52DCBEB7FE614A82 /* JWTDecode-prefix.pch */,
+				FF0D51A7ACFBEB473611F4D8C0296EC9 /* JWTDecode-umbrella.h */,
+				B60AE4CA74153FD8CB7B2C1B17CE8CB6 /* JWTDecode.debug.xcconfig */,
+				E204EEDFBC0C2C166541A1E658345C77 /* JWTDecode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWTDecode";
+			sourceTree = "<group>";
+		};
+		CAF1B90AF762610FA2BF8548273345F4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				774F957E2E6265819526C264D0EE1F5F /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CE008FB4E5C007002BF01BC0D33343D0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				17120734236A857987BA4DB14DD61748 /* Deprecations.swift */,
+				9B84C70B33EAC62431B9DD67D1024A16 /* Extensions.swift */,
+				62F259F951BDF0F66C31DD8A50C9174F /* Initializable.swift */,
+				3431E20E145C09DBF1540614531E12A7 /* Print.swift */,
+				E44C6D9024A6CF8995180C407D670E9F /* Protected.swift */,
+				CF2F69DCD55D662A3B26D6648673218E /* SideMenuAnimationController.swift */,
+				357F265A899CD9D968BE80BBFE9DA639 /* SideMenuInteractionController.swift */,
+				FE00364594B82AA072B8A1C030D12FCD /* SideMenuManager.swift */,
+				A0FAB9595E4CF6C2701F9BFCB3F75837 /* SideMenuNavigationController.swift */,
+				18C46E374FA37EE164F60207FAFDB162 /* SideMenuPresentationController.swift */,
+				242514B5A974F83D7DB8BE059F60B575 /* SideMenuPresentationStyle.swift */,
+				D4221A6AB1B01170C3D9277D48E3F41F /* SideMenuPushCoordinator.swift */,
+				C045B7B17F7973CB76F71B4F325E30C6 /* SideMenuTransitionController.swift */,
+				DC62200EADE95E0212BEC76C5DB83E5A /* UITableViewVibrantCell.swift */,
+				73254DF8CEE9D05A07C285D5D1F42866 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0321344B3953BA90EBB5A36F13AC3AB1 /* Frameworks */,
+				99EF7E14A93D95BD3A9D2DB01DA9C193 /* Pods */,
+				7F774AA919CF5A696B58D881B0E281E2 /* Products */,
+				FC8F064593E76371C906F21B689B2219 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DE462257E1950DC63655BA81BDA1E5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1B90AF762610FA2BF8548273345F4 /* Base */,
+				E1D5AFEA8E94AB065B6F52D8BFB960CB /* Maps */,
+				267FFAA4A7ADD0B48B48050B8E35A1D8 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E1D5AFEA8E94AB065B6F52D8BFB960CB /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1179A4CE8C7068420D9A37A927B26183 /* Frameworks */,
+				152504BD4E198307F8722D64ED3AF4E5 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		FC258B6D37A8D7E42BBC5E39F5088DCB /* SimpleKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				8636629400958D764063AA4E90267847 /* A0SimpleKeychain.h */,
+				0249686A98E64D77975167A31E169294 /* A0SimpleKeychain.m */,
+				6B867D5ABFD5006560EC06A30C34BA9B /* A0SimpleKeychain+KeyPair.h */,
+				E864240BF4548C5826BB0CBA8CFF4AA9 /* A0SimpleKeychain+KeyPair.m */,
+				68DE8317BA4663E2789D88E2C274DF2B /* SimpleKeychain.h */,
+				AB416D86FE2114A8DFE80EC611E2D6BB /* Support Files */,
+			);
+			name = SimpleKeychain;
+			path = SimpleKeychain;
+			sourceTree = "<group>";
+		};
+		FC6ACD748B53695410E3A94203B50200 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E03DC03F084E4F1979FF26634838A0 /* Auth0.modulemap */,
+				391299F51852DF5E78863903032BD175 /* Auth0-dummy.m */,
+				B1DA16224839C9C01339CE6B5D17C6A2 /* Auth0-Info.plist */,
+				E3462718529CDE56B33B20E74EFB2D4F /* Auth0-prefix.pch */,
+				D28755E8281FD4BA791065D42A44AD67 /* Auth0-umbrella.h */,
+				2758357EBF8AD556F2EE38C26C6807F3 /* Auth0.debug.xcconfig */,
+				6D5ACD50C975FC79731B2CAFE8C404A9 /* Auth0.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Auth0";
+			sourceTree = "<group>";
+		};
+		FC8F064593E76371C906F21B689B2219 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C8B86B8992BC40A359237DEC1ECF595 /* Pods-TracMobility */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ABC8E70FD68D0FA0489479E39957DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D8072A379878000E0F6605D6D874D9 /* A0SimpleKeychain+KeyPair.h in Headers */,
+				B01BE472A19FB04C4A7000865908B8EC /* A0SimpleKeychain.h in Headers */,
+				F42DBAE39B8DBEA80DD187805BF516B0 /* SimpleKeychain-umbrella.h in Headers */,
+				644BEE229C53B59F1C68AD61D92B70FD /* SimpleKeychain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249F461EE77607C817019D8248F119BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A766F05FEF8113BE3ADCD85F0D172DC /* JWTDecode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28761BD3C505CCB36997450A19676357 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D777716F0B6C0754B7B0230531743BC4 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB08088505C63B70F527C139D9CA5A11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730874225865FFEE25F60831C481E6F5 /* Pods-TracMobility-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2BBC6C0F6D1B514478018DB78F6BA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D824B274DCD84D572293FC555F8D96 /* A0ChallengeGenerator.h in Headers */,
+				F1F72D383098F92022F9AE78DDF46C3F /* A0RSA.h in Headers */,
+				726E2ABD01E7918A6461B83734162CE3 /* A0SHA.h in Headers */,
+				05F3DCAC68787DC15026B845F13C594E /* Auth0-umbrella.h in Headers */,
+				E0804A914CA5395D625CADDA8E0BE07F /* Auth0.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2631F831E6A2C3C09BD657153953F830 /* Build configuration list for PBXNativeTarget "SimpleKeychain" */;
+			buildPhases = (
+				1ABC8E70FD68D0FA0489479E39957DBE /* Headers */,
+				7323BE213D7FFBC6A9806EFCF3CFF198 /* Sources */,
+				B91F7848AEF33FB159735908CFF08D48 /* Frameworks */,
+				0EE6B6F9607466937A78EDBA88169343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleKeychain;
+			productName = SimpleKeychain;
+			productReference = CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F1EC58CBDD7EB3592DC87E2CDAB2BD /* Build configuration list for PBXNativeTarget "JWTDecode" */;
+			buildPhases = (
+				249F461EE77607C817019D8248F119BF /* Headers */,
+				E1F8DC847827698A9E3076E8F41E9324 /* Sources */,
+				65D21D3F66794ED154AE6287773BAC7C /* Frameworks */,
+				AC737FBF0251AD611E4AC0F1B12FDCF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWTDecode;
+			productName = JWTDecode;
+			productReference = 7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		827E6A41981DD5F92C16C1DA5C0F5AFA /* Pods-TracMobility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A921F5B196CB374EA957458DF6DAD05F /* Build configuration list for PBXNativeTarget "Pods-TracMobility" */;
+			buildPhases = (
+				BB08088505C63B70F527C139D9CA5A11 /* Headers */,
+				7C83411554A513C0F5C6EAA8867E07CF /* Sources */,
+				2B85D115573CE30350B7BF62827F6ED7 /* Frameworks */,
+				7357D3AD1F5BC77989D76339B499510A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601763AEB6D00DF9AB93DF288DDD7504 /* PBXTargetDependency */,
+				580DD402B887DCC46F8AAC0E7A33EA34 /* PBXTargetDependency */,
+				EF8209D905726CC67A285C9C35E44819 /* PBXTargetDependency */,
+				3695A9D1918322C3223897E79106CF9E /* PBXTargetDependency */,
+				CCB4251B4A49B02DF6B518370227D968 /* PBXTargetDependency */,
+			);
+			name = "Pods-TracMobility";
+			productName = "Pods-TracMobility";
+			productReference = BF1A0D25C765B20D6EDE7273B141B566 /* Pods_TracMobility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92707F899E1CD6FD63DCC66A3882B68C /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				28761BD3C505CCB36997450A19676357 /* Headers */,
+				8B7A6B51F5DD73DE3F3F294B1BF713BE /* Sources */,
+				D9D87C2BC8D3C4B8382407D4C6B16014 /* Frameworks */,
+				E880A6A8817A45BC1BDE085DEC3399E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6A440A37D50015E369921294617C612 /* Auth0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBEECF91AAA3CA7279CC1499F4AEDE1 /* Build configuration list for PBXNativeTarget "Auth0" */;
+			buildPhases = (
+				BF2BBC6C0F6D1B514478018DB78F6BA9 /* Headers */,
+				69A580172FE271C0A0A487888503CB0E /* Sources */,
+				7FA9283343A3B51DF6E29FC09347EDF7 /* Frameworks */,
+				BE569CCE1E3D6950DEB6D04687769458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CE14676D018EDA7D08441E96346565B /* PBXTargetDependency */,
+				B7E1F1B540237A8CABD29148CC626378 /* PBXTargetDependency */,
+			);
+			name = Auth0;
+			productName = Auth0;
+			productReference = 999459C45731F18EC49428C10057EA51 /* Auth0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F774AA919CF5A696B58D881B0E281E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6A440A37D50015E369921294617C612 /* Auth0 */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */,
+				827E6A41981DD5F92C16C1DA5C0F5AFA /* Pods-TracMobility */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+				192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE6B6F9607466937A78EDBA88169343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7357D3AD1F5BC77989D76339B499510A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC737FBF0251AD611E4AC0F1B12FDCF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE569CCE1E3D6950DEB6D04687769458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E880A6A8817A45BC1BDE085DEC3399E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A580172FE271C0A0A487888503CB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4666BC7F6E0D8BBDD22A1294637FA91 /* _ObjectiveAuthenticationAPI.swift in Sources */,
+				2E91482C596C57275E8C3E92D9459965 /* _ObjectiveManagementAPI.swift in Sources */,
+				72DA7F412D36835CB1ACBA58FE4C706F /* _ObjectiveWebAuth.swift in Sources */,
+				66EC7587AF5B4A1E73F334764A7BE210 /* A0ChallengeGenerator.m in Sources */,
+				791AD9EE18B8E8E058174E01621A32AB /* A0RSA.m in Sources */,
+				158E4A12218EAAF6FC2B70AABCF6EC5A /* A0SHA.m in Sources */,
+				B7883CABA5509F981F534EA15BAC8E24 /* A0SimpleKeychain+RSAPublicKey.swift in Sources */,
+				BB988F9C5AC7353874C50AEEE3781FFD /* Array+Encode.swift in Sources */,
+				4CB0FAC615F7C6324BD74DC2CEF70F51 /* Auth0-dummy.m in Sources */,
+				95A1E76D4EFC60DF87FB82F19DB4FFCA /* Auth0.swift in Sources */,
+				761EC698F1E152E7BCCFF6C5B2DCBDC4 /* Auth0Authentication.swift in Sources */,
+				5A497CB1B9901F80CEE853D333A3721D /* Auth0Error.swift in Sources */,
+				DBC04073F4C05395B9812D9FDCD9EF40 /* AuthCancelable.swift in Sources */,
+				0AEE4116D2A72294B7BF5DFD818601BB /* Authentication.swift in Sources */,
+				144781611443EFAEB8FD220585FA7131 /* AuthenticationError.swift in Sources */,
+				FA2A3765B1B3A3E31B7001D4FFE6688C /* AuthenticationServicesSession.swift in Sources */,
+				CF7B55E45FC55A4CD9D6919864B439AE /* AuthenticationServicesSessionCallback.swift in Sources */,
+				944FFA9A6589D6ABAD28570B51BB09BC /* AuthProvider.swift in Sources */,
+				A6A2EBCBD7B8B1244DB8E449297029BD /* AuthSession.swift in Sources */,
+				031AA2DB67A55EE7AE432981DFDC59B8 /* AuthTransaction.swift in Sources */,
+				5939998F45BC3D41273E018CB7A9A399 /* BaseAuthTransaction.swift in Sources */,
+				075EB555ADF78E375C09892C0DF767B8 /* BaseWebAuth.swift in Sources */,
+				F3F723C94CD304E58CAAB80FA890F74E /* BioAuthentication.swift in Sources */,
+				D5E5A76FB19A2C3061B5140941706602 /* ClaimValidators.swift in Sources */,
+				EED6433531BA543E29624577B9B1F18D /* ControllerModalPresenter.swift in Sources */,
+				FEA733E84769114AD1FE267A10EA7204 /* Credentials.swift in Sources */,
+				A002C5FCC8D5FAF15FBBC5B676262343 /* CredentialsManager.swift in Sources */,
+				674877CBD8A08565CFEB59419ADC4032 /* CredentialsManagerError.swift in Sources */,
+				AABE741EC2F6202444A5D9ABF91CFFF2 /* Date.swift in Sources */,
+				56BC5638EB64537C7AE45AADA512AB26 /* Handlers.swift in Sources */,
+				2E4C1D73F9B4BE6AB4651AAF2A33C080 /* Identity.swift in Sources */,
+				AE13A87CBB9DD3F17D4909A02B77023F /* IDTokenSignatureValidator.swift in Sources */,
+				87CE447B47AF3FB3A26B915FD614FCE1 /* IDTokenValidator.swift in Sources */,
+				34FC7C594EE887C6670A84323316F0BC /* IDTokenValidatorContext.swift in Sources */,
+				2AFCDFE6A273702D6F5FBA2CB9CEEA89 /* JSONObjectPayload.swift in Sources */,
+				28FCC2639F983C267560757EE8016B71 /* JWK+RSA.swift in Sources */,
+				3EE70F74E18571874287B97D7641BA7F /* JWKS.swift in Sources */,
+				D3BDBB904E42E860F35E9DB5AE6AA671 /* JWT+Header.swift in Sources */,
+				1A8F7F847C21F79B444FF4FEB50C6557 /* JWTAlgorithm.swift in Sources */,
+				895391C7E3CBD618FFC14059B98CBA68 /* Loggable.swift in Sources */,
+				8D99D40053441637EA7A13B95CE74DA3 /* Logger.swift in Sources */,
+				A124236E79CF4C7BF5988D079C86F802 /* Management.swift in Sources */,
+				6FC7B6F2CA574085656A1067C0E87E79 /* ManagementError.swift in Sources */,
+				26CAAE4FBB59E5C0906E4DD293E626C9 /* MobileWebAuth.swift in Sources */,
+				108A8FDEFCBC5565CFE4DDD633CA3786 /* NativeAuth.swift in Sources */,
+				E2CD16ECB8EA2A85B692D9746CED8C0A /* NSData+URLSafe.swift in Sources */,
+				3833083FC6BFBA503C9FC9C68376203C /* NSError+Helper.swift in Sources */,
+				71B11342537D6949773E7BEDA74CAB65 /* NSURL+Auth0.swift in Sources */,
+				F8A471E5C254B27D3A645793725E20B1 /* NSURLComponents+OAuth2.swift in Sources */,
+				53D61E1A80DB1962DF9146EC301D151F /* OAuth2Grant.swift in Sources */,
+				0268532C49DBAAF7C54D780BD1AAC501 /* Optional+DebugDescription.swift in Sources */,
+				647885596AAC09B0413F07E2DC733074 /* Profile.swift in Sources */,
+				FC7D6434302C46978BAEC4C05301B52C /* Request.swift in Sources */,
+				789B84C5A99A1963B2D7C3B5DD31170E /* Requestable.swift in Sources */,
+				4859275B55A35267EC1D394764F6128D /* Response.swift in Sources */,
+				FC4588DF99BA17E61DB3747BA5F14B78 /* ResponseType.swift in Sources */,
+				DDB550E330B217E68009822E05CE54D2 /* Result.swift in Sources */,
+				A3E13EDBC094E479447B7FC66399B861 /* SafariSession.swift in Sources */,
+				5F237E7E41E9759AC99453AC1E011137 /* SessionCallbackTransaction.swift in Sources */,
+				0980A9BE78CDFF3939DAE1E34EF60989 /* SessionTransaction.swift in Sources */,
+				8FE9B6FC65010C719EB926427BA24CB1 /* SilentSafariViewController.swift in Sources */,
+				A033CF039695CED2225FBEB7E25B6535 /* String+URLSafe.swift in Sources */,
+				DDB08BBF9EF0F39387D03717F2F4E721 /* Telemetry.swift in Sources */,
+				B0FBBA93EF9C81F71331550B5AEAB8EF /* TransactionStore.swift in Sources */,
+				D5C1CFD7679B4685D29D9A246D30244A /* UIApplication+Shared.swift in Sources */,
+				EF30331943C7F2BDF7056B5275ABC66F /* UserInfo.swift in Sources */,
+				1C9E35BACF130380DE342F8BCED81656 /* UserPatchAttributes.swift in Sources */,
+				5B64910E5E7AEB168FB1463894C2E176 /* Users.swift in Sources */,
+				564747C8631A7C4CF2E6F0C8120A4A4C /* WebAuthenticatable.swift in Sources */,
+				F41ED9EC71B5D34272F2FED4B95E8AE6 /* WebAuthError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7323BE213D7FFBC6A9806EFCF3CFF198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562590480CD89E5C6A191D6D0DBB240F /* A0SimpleKeychain+KeyPair.m in Sources */,
+				CC63DE6971E96DA610E35607FED070C6 /* A0SimpleKeychain.m in Sources */,
+				4DC6B7D91C30204B8F6DF6C81F219DC0 /* SimpleKeychain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C83411554A513C0F5C6EAA8867E07CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C347880249E2215DDDDD63675A31327E /* Pods-TracMobility-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7A6B51F5DD73DE3F3F294B1BF713BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D22BB8C279DC03EA91BFE3F5412477 /* Deprecations.swift in Sources */,
+				4E88B70410F6837FBD463EA4B6C33155 /* Extensions.swift in Sources */,
+				C798DA148F7F666F393F2009DDF73E35 /* Initializable.swift in Sources */,
+				D1BD7393C7934049B3E51D9C5A5CD8A0 /* Print.swift in Sources */,
+				905A503F069C27E841BAD9F4EFD4F1AF /* Protected.swift in Sources */,
+				08B5B89F28224381711F45A680C292D9 /* SideMenu-dummy.m in Sources */,
+				890FF25D0CCFF9BADECBA64DCCEFF4FF /* SideMenuAnimationController.swift in Sources */,
+				8C06632AA14D12278B1277AC0CC6A0B2 /* SideMenuInteractionController.swift in Sources */,
+				77AF2098DDCCAAE0CE4A20725C466905 /* SideMenuManager.swift in Sources */,
+				3846AFE38D1B63A9F0D9073C4ABC6DAA /* SideMenuNavigationController.swift in Sources */,
+				27D830F1CAC60B99CC0A135F583BFFF2 /* SideMenuPresentationController.swift in Sources */,
+				3E18B004D34ED5441A193684EEB25BD3 /* SideMenuPresentationStyle.swift in Sources */,
+				2ED518A3FA8DCBE08E621AC5C32844A9 /* SideMenuPushCoordinator.swift in Sources */,
+				09A0A5D3733F69E93F553ABBCF02FB77 /* SideMenuTransitionController.swift in Sources */,
+				C96A55C2A869A97AC4CA628A7F2A2A21 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F8DC847827698A9E3076E8F41E9324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E940C89414F12244419074797274CC8 /* A0JWT.swift in Sources */,
+				37BFAC529368699DED04412DB116BD90 /* Errors.swift in Sources */,
+				86AD5E522BECB5A83EB0D5B8EA60C4BB /* JWT.swift in Sources */,
+				85B9916E3483553FDB1AAF9A0CB76D98 /* JWTDecode-dummy.m in Sources */,
+				790C5E4D3F13225E9D007286C1F1A614 /* JWTDecode.swift in Sources */,
+				E96C1FB4A3F4601180C37592CAEAE2F6 /* TokenValidators.swift in Sources */,
+				7EE79957319B9F8EEC9D6A0F27654588 /* ValidationError.swift in Sources */,
+				FDA43146F0125B5726A907898DBB5D9B /* ValidatorJWT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CE14676D018EDA7D08441E96346565B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWTDecode;
+			target = 22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */;
+			targetProxy = 36C4BCC91769063BC36BB8F526C38A8B /* PBXContainerItemProxy */;
+		};
+		3695A9D1918322C3223897E79106CF9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = CFA3B1F95238AF83136E929E67252630 /* PBXContainerItemProxy */;
+		};
+		580DD402B887DCC46F8AAC0E7A33EA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 9ACB5D6E538F568CA9E252A10A4F167A /* PBXContainerItemProxy */;
+		};
+		601763AEB6D00DF9AB93DF288DDD7504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Auth0;
+			target = D6A440A37D50015E369921294617C612 /* Auth0 */;
+			targetProxy = 7ABBBF31D7335F453A9A78D864E3C3AD /* PBXContainerItemProxy */;
+		};
+		B7E1F1B540237A8CABD29148CC626378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleKeychain;
+			target = 192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */;
+			targetProxy = 98520E69C0D267FA1ED32DC8329D6C4F /* PBXContainerItemProxy */;
+		};
+		CCB4251B4A49B02DF6B518370227D968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleKeychain;
+			target = 192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */;
+			targetProxy = 89B069898770E469F5C119C04FD77B76 /* PBXContainerItemProxy */;
+		};
+		EF8209D905726CC67A285C9C35E44819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWTDecode;
+			target = 22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */;
+			targetProxy = 5C0E35EFF3440A09BC2D9EB4DF70ACE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE6D0CED117103FE119745756EBD59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60AE4CA74153FD8CB7B2C1B17CE8CB6 /* JWTDecode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/JWTDecode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
+				PRODUCT_MODULE_NAME = JWTDecode;
+				PRODUCT_NAME = JWTDecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C8A687A8AC1620ECDFCDED2FAC17C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435F2595A13E46C5F8C183CFACA7184D /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C72A94599DC61F715EFAA96A5458984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5ACD50C975FC79731B2CAFE8C404A9 /* Auth0.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Auth0/Auth0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Auth0/Auth0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Auth0/Auth0.modulemap";
+				PRODUCT_MODULE_NAME = Auth0;
+				PRODUCT_NAME = Auth0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45B6D36435972CBBC59A481A20E44C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7115139913BF96A0839BC5861B28E9FF /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5607CD50656C24B1A4C1B8F2F6DACC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29B8B49583093E1482E2277E9E94655 /* Pods-TracMobility.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TracMobility/Pods-TracMobility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TracMobility/Pods-TracMobility.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BF14DAB2BAFC307467D68C0C74D5357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6D2B90CC925D15B30C4161C6C00C96 /* SimpleKeychain.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleKeychain/SimpleKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleKeychain/SimpleKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleKeychain/SimpleKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SimpleKeychain;
+				PRODUCT_NAME = SimpleKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		790F8A239E8E595BAF97D458AF9300EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743135213B9FE92BA7DBC05E6733C144 /* Pods-TracMobility.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TracMobility/Pods-TracMobility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TracMobility/Pods-TracMobility.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B0741E453F3A68A0D39844DFFC8A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E204EEDFBC0C2C166541A1E658345C77 /* JWTDecode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/JWTDecode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
+				PRODUCT_MODULE_NAME = JWTDecode;
+				PRODUCT_NAME = JWTDecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10DA8620B5389CFE39475EDA3F8053A0 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E0205E7B86154674E2B4E6C4BE136A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FAAE053DE4C0E0D40C5529AE3E6CE5 /* SimpleKeychain.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleKeychain/SimpleKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleKeychain/SimpleKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleKeychain/SimpleKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SimpleKeychain;
+				PRODUCT_NAME = SimpleKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB9B38139C5627437C662CCBEFC5D805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D7CEA483812F614092313DEF53B5DACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2758357EBF8AD556F2EE38C26C6807F3 /* Auth0.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Auth0/Auth0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Auth0/Auth0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Auth0/Auth0.modulemap";
+				PRODUCT_MODULE_NAME = Auth0;
+				PRODUCT_NAME = Auth0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1E452060D51DF935547186CE54B26CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81C0DB1FD01EB085E15CCEF8FBD73E5 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F1EC58CBDD7EB3592DC87E2CDAB2BD /* Build configuration list for PBXNativeTarget "JWTDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE6D0CED117103FE119745756EBD59F /* Debug */,
+				85B0741E453F3A68A0D39844DFFC8A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2631F831E6A2C3C09BD657153953F830 /* Build configuration list for PBXNativeTarget "SimpleKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E0205E7B86154674E2B4E6C4BE136A /* Debug */,
+				6BF14DAB2BAFC307467D68C0C74D5357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E452060D51DF935547186CE54B26CC /* Debug */,
+				8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */,
+				AB9B38139C5627437C662CCBEFC5D805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92707F899E1CD6FD63DCC66A3882B68C /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B6D36435972CBBC59A481A20E44C4A /* Debug */,
+				1C8A687A8AC1620ECDFCDED2FAC17C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A921F5B196CB374EA957458DF6DAD05F /* Build configuration list for PBXNativeTarget "Pods-TracMobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F8A239E8E595BAF97D458AF9300EC /* Debug */,
+				5607CD50656C24B1A4C1B8F2F6DACC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBEECF91AAA3CA7279CC1499F4AEDE1 /* Build configuration list for PBXNativeTarget "Auth0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CEA483812F614092313DEF53B5DACD /* Debug */,
+				2C72A94599DC61F715EFAA96A5458984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
