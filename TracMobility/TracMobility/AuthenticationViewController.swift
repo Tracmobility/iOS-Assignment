@@ -39,6 +39,9 @@ class AuthenticationViewController: UIViewController {
                     
                     print("Credentials: \(credentials)")
                     
+                    let credentialsManager = CredentialsManager(authentication: Auth0.authentication())
+                    credentialsManager.store(credentials: credentials)
+                    
                     let authViewController = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! HomeViewController
                     
                     self.navigationController?.pushViewController(authViewController, animated: true)

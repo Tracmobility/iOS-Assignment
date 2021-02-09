@@ -50,7 +50,6 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         imageView.image = image
         navigationItem.titleView = imageView
         
-        
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -64,10 +63,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: cordinate.latitude, longitude: cordinate.longitude)
         
-        
         marker.map = mapView
-        
-        
         
         
     }
@@ -95,12 +91,13 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let button = UIButton(type: .system)
         button.setTitle("Scan To Unlock", for: .normal)
         button.backgroundColor = .black
+        button.titleLabel?.font = .boldSystemFont(ofSize: 20)
+        button.setTitleColor(.white, for: .normal)
         
         button.translatesAutoresizingMaskIntoConstraints = false
         view.insertSubview(button, at: 1)
         button.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        
         
         button.addTarget(self, action: #selector(alert), for: .touchUpInside)
     }

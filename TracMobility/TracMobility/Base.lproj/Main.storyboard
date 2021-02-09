@@ -77,7 +77,7 @@
                     <navigationItem key="navigationItem" id="eOw-FX-72j">
                         <barButtonItem key="leftBarButtonItem" image="slider.horizontal.3" catalog="system" id="UWL-EO-yia">
                             <connections>
-                                <action selector="didtapMenu" destination="52Z-65-Z81" id="him-jE-I77"/>
+                                <action selector="didTapMenu" destination="52Z-65-Z81" id="Fuq-sf-qzL"/>
                             </connections>
                         </barButtonItem>
                         <rightBarButtonItems>
@@ -107,26 +107,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fce-ty-5iq">
-                                <rect key="frame" x="16" y="60" width="382" height="786"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="786" id="K21-ld-6Ux"/>
-                                    <constraint firstAttribute="width" constant="382" id="ld7-Dq-0n6"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="229" id="QdA-yq-Sxm" customClass="SideMenuTableViewCell" customModule="TracMobility" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="382" height="229"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="229"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QdA-yq-Sxm" id="5Qg-nm-uLa">
-                                            <rect key="frame" x="0.0" y="0.0" width="382" height="229"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="229"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glx-iC-sF0">
-                                                    <rect key="frame" x="64" y="99.5" width="175" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="2K6-tL-Yf3"/>
-                                                        <constraint firstAttribute="width" constant="175" id="wVj-PO-dzl"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="64" y="104.5" width="41.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -140,10 +132,10 @@
                                                 </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="Glx-iC-sF0" firstAttribute="leading" secondItem="hso-qC-5Aq" secondAttribute="trailing" constant="16" id="3rC-dH-alU"/>
                                                 <constraint firstItem="hso-qC-5Aq" firstAttribute="leading" secondItem="5Qg-nm-uLa" secondAttribute="leadingMargin" constant="8" id="8pD-HA-rTD"/>
-                                                <constraint firstItem="Glx-iC-sF0" firstAttribute="leading" secondItem="hso-qC-5Aq" secondAttribute="trailing" constant="16" id="CsP-DW-Yyo"/>
                                                 <constraint firstItem="hso-qC-5Aq" firstAttribute="centerY" secondItem="5Qg-nm-uLa" secondAttribute="centerY" id="Y97-n6-N6c"/>
-                                                <constraint firstItem="Glx-iC-sF0" firstAttribute="centerY" secondItem="5Qg-nm-uLa" secondAttribute="centerY" id="qRD-aS-GGY"/>
+                                                <constraint firstItem="Glx-iC-sF0" firstAttribute="centerY" secondItem="5Qg-nm-uLa" secondAttribute="centerY" id="euD-M1-s5t"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -161,10 +153,10 @@
                         <viewLayoutGuide key="safeArea" id="58c-lS-8qE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Fce-ty-5iq" firstAttribute="top" secondItem="58c-lS-8qE" secondAttribute="top" constant="16" id="brG-fe-he2"/>
-                            <constraint firstItem="58c-lS-8qE" firstAttribute="trailing" secondItem="Fce-ty-5iq" secondAttribute="trailing" constant="16" id="eL1-22-WgE"/>
-                            <constraint firstItem="58c-lS-8qE" firstAttribute="bottom" secondItem="Fce-ty-5iq" secondAttribute="bottom" constant="16" id="jqd-FG-b62"/>
-                            <constraint firstItem="Fce-ty-5iq" firstAttribute="leading" secondItem="58c-lS-8qE" secondAttribute="leading" constant="16" id="p7A-ot-cMP"/>
+                            <constraint firstItem="Fce-ty-5iq" firstAttribute="top" secondItem="58c-lS-8qE" secondAttribute="top" id="GLz-pl-rnm"/>
+                            <constraint firstItem="58c-lS-8qE" firstAttribute="trailing" secondItem="Fce-ty-5iq" secondAttribute="trailing" id="ZNb-zo-gu2"/>
+                            <constraint firstItem="58c-lS-8qE" firstAttribute="bottom" secondItem="Fce-ty-5iq" secondAttribute="bottom" id="mht-DG-tlN"/>
+                            <constraint firstItem="Fce-ty-5iq" firstAttribute="leading" secondItem="58c-lS-8qE" secondAttribute="leading" id="q1v-OQ-q4f"/>
                         </constraints>
                     </view>
                     <connections>

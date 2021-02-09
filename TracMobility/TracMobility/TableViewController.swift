@@ -21,9 +21,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         imageArray.count
@@ -33,6 +31,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = myTableList.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SideMenuTableViewCell
         cell.infoLabel.text = profileInfo[indexPath.row]
+       
         cell.logoImage.image = UIImage(named: imageArray[indexPath.row])
         
         return cell
