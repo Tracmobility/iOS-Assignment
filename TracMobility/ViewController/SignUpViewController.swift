@@ -282,7 +282,7 @@ extension SignUpViewController {
             alert.dismiss(animated: true, completion: nil)
             
             /// `Save the user Information`
-            let userDict:Dictionary<String, String> = ["FirstName": self.firstNameTextField.text ?? "", "LastName": self.lastNameTextField.text ?? "", "Email": self.emailAddressTextField.text ?? "tracmobility@gmail.com", "CountryCode": self.countryCode.text ?? self.defaultCountryCode, "PhoneNumber": self.phoneNumberTextField.text ?? "7743405150"]
+            let userDict:Dictionary<String, String> = ["FirstName": self.firstNameTextField.text ?? "Trac Mobility", "LastName": self.lastNameTextField.text ?? "", "Email": self.emailAddressTextField.text ?? "tracmobility@gmail.com", "CountryCode": self.countryCode.text ?? self.defaultCountryCode, "PhoneNumber": self.phoneNumberTextField.text ?? "7743405150"]
             UserDefaults.standard.set(userDict, forKey: "userInfo")
             
             let storyboard = UIStoryboard(name:"Main", bundle:nil).instantiateViewController(withIdentifier: "DashboardViewControllerID") as! DashboardViewController

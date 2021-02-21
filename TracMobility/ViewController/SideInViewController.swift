@@ -22,7 +22,7 @@ class SideInViewController: UIViewController {
         
         self.sideMenuTableView.tableFooterView = UIView()
         if let userInfo = UserDefaults.standard.value(forKey: "userInfo") as? [String : String] {
-            userName.text = "\((userInfo["FirstName"] ?? "") + "Trac Mobility" + (userInfo["LastName"] ?? ""))"
+            userName.text = "\((userInfo["FirstName"] ?? "Trac Mobility") + " " + (userInfo["LastName"] ?? ""))"
             mobileNumber.text = "\((userInfo["CountryCode"] ?? "🇬🇧+44") + " " + (userInfo["PhoneNumber"] ?? "7743405150"))"
             emailID.text = userInfo["Email"] ?? "tracmobility@gmail.com"
         }
