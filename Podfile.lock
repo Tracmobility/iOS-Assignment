@@ -1,0 +1,37 @@
+PODS:
+  - Auth0 (1.31.0):
+    - JWTDecode
+    - SimpleKeychain
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
+  - JWTDecode (2.6.0)
+  - SimpleKeychain (0.12.2)
+
+DEPENDENCIES:
+  - Auth0 (~> 1.0)
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC REPOS:
+  trunk:
+    - Auth0
+    - GoogleMaps
+    - GooglePlaces
+    - JWTDecode
+    - SimpleKeychain
+
+SPEC CHECKSUMS:
+  Auth0: 5a4ddc55570c8dfb1521de559d7f5409fd7be632
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
+  JWTDecode: 480ca441ddbd5fbfb2abf17870af62f86436be58
+  SimpleKeychain: d6a74781e20ebac8cd89deebf593587913aeed07
+
+PODFILE CHECKSUM: 231efc98e90adb14a5ce9763834a339f7e09d3ca
+
+COCOAPODS: 1.10.1
